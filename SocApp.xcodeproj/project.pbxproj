@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		81493B2418007F7C00A31655 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81493B2318007F7C00A31655 /* Default-568h@2x.png */; };
+		81601CB31821ACFA00729FD9 /* MessageComposerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */; };
+		81601CB41821ACFA00729FD9 /* SocApp.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 81601CB21821ACFA00729FD9 /* SocApp.entitlements */; };
+		81601CB71821AD2D00729FD9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB51821AD2D00729FD9 /* MessageUI.framework */; };
+		81601CB81821AD2D00729FD9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB61821AD2D00729FD9 /* Twitter.framework */; };
+		81601CBA1821AD5E00729FD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB91821AD5E00729FD9 /* AudioToolbox.framework */; };
 		817D2E8F1804CDC000621B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D2E8B1804CDC000621B44 /* main.m */; };
 		817D2E901804CDC000621B44 /* SocApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 817D2E8C1804CDC000621B44 /* SocApp-Info.plist */; };
 		817D2E911804CDC000621B44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817D2E8E1804CDC000621B44 /* InfoPlist.strings */; };
@@ -25,6 +30,12 @@
 
 /* Begin PBXFileReference section */
 		81493B2318007F7C00A31655 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		81601CB01821ACFA00729FD9 /* MessageComposerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageComposerViewController.h; sourceTree = "<group>"; };
+		81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageComposerViewController.m; sourceTree = "<group>"; };
+		81601CB21821ACFA00729FD9 /* SocApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SocApp.entitlements; sourceTree = "<group>"; };
+		81601CB51821AD2D00729FD9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		81601CB61821AD2D00729FD9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		81601CB91821AD5E00729FD9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		817D2E8B1804CDC000621B44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SocApp/main.m; sourceTree = SOURCE_ROOT; };
 		817D2E8C1804CDC000621B44 /* SocApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SocApp-Info.plist"; path = "SocApp/SocApp-Info.plist"; sourceTree = SOURCE_ROOT; };
 		817D2E8D1804CDC000621B44 /* SocApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SocApp-Prefix.pch"; path = "SocApp/SocApp-Prefix.pch"; sourceTree = SOURCE_ROOT; };
@@ -52,9 +63,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81601CB71821AD2D00729FD9 /* MessageUI.framework in Frameworks */,
+				81601CB81821AD2D00729FD9 /* Twitter.framework in Frameworks */,
 				EB439188157818DE00DE8E91 /* UIKit.framework in Frameworks */,
 				EB43918A157818DE00DE8E91 /* Foundation.framework in Frameworks */,
 				EB43918C157818DE00DE8E91 /* CoreGraphics.framework in Frameworks */,
+				81601CBA1821AD5E00729FD9 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +78,7 @@
 		81CA00821800FD8300B6F605 /* SocApp */ = {
 			isa = PBXGroup;
 			children = (
+				81601CB21821ACFA00729FD9 /* SocApp.entitlements */,
 				81CA00831800FD8300B6F605 /* AppDelegate.h */,
 				81CA00841800FD8300B6F605 /* AppDelegate.m */,
 				81CA00871800FD8300B6F605 /* MainStoryboard.storyboard */,
@@ -75,6 +90,8 @@
 				81CA00941800FD8400B6F605 /* ViewController.m */,
 				81CA009F1801062800B6F605 /* TrendViewController-Detail.h */,
 				81CA00A01801062800B6F605 /* TrendViewController-Detail.m */,
+				81601CB01821ACFA00729FD9 /* MessageComposerViewController.h */,
+				81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */,
 				EB43918E157818DE00DE8E91 /* Supporting Files */,
 			);
 			path = SocApp;
@@ -101,6 +118,9 @@
 		EB439186157818DE00DE8E91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				81601CB91821AD5E00729FD9 /* AudioToolbox.framework */,
+				81601CB51821AD2D00729FD9 /* MessageUI.framework */,
+				81601CB61821AD2D00729FD9 /* Twitter.framework */,
 				EB439187157818DE00DE8E91 /* UIKit.framework */,
 				EB439189157818DE00DE8E91 /* Foundation.framework */,
 				EB43918B157818DE00DE8E91 /* CoreGraphics.framework */,
@@ -179,6 +199,7 @@
 				817D30D91804CF2A00621B44 /* app-bits_free_tabbar_icons in Resources */,
 				81CA00971800FD8400B6F605 /* MainStoryboard.storyboard in Resources */,
 				817D2E901804CDC000621B44 /* SocApp-Info.plist in Resources */,
+				81601CB41821ACFA00729FD9 /* SocApp.entitlements in Resources */,
 				817D2E911804CDC000621B44 /* InfoPlist.strings in Resources */,
 				81493B2418007F7C00A31655 /* Default-568h@2x.png in Resources */,
 			);
@@ -193,6 +214,7 @@
 			files = (
 				81CA009B1800FD8400B6F605 /* TrendViewController-Master.m in Sources */,
 				81CA00981800FD8400B6F605 /* LoginTableViewController.m in Sources */,
+				81601CB31821ACFA00729FD9 /* MessageComposerViewController.m in Sources */,
 				81CA009E1800FD8400B6F605 /* ViewController.m in Sources */,
 				81CA00A11801062800B6F605 /* TrendViewController-Detail.m in Sources */,
 				817D2E8F1804CDC000621B44 /* main.m in Sources */,
@@ -279,6 +301,7 @@
 		EB4391A2157818DE00DE8E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SocApp/SocApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -286,6 +309,7 @@
 				INFOPLIST_FILE = "SocApp/SocApp-Info.plist";
 				PRODUCT_NAME = SocApp;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -293,6 +317,7 @@
 		EB4391A3157818DE00DE8E91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SocApp/SocApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -300,6 +325,7 @@
 				INFOPLIST_FILE = "SocApp/SocApp-Info.plist";
 				PRODUCT_NAME = SocApp;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
