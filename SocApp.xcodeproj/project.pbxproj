@@ -16,7 +16,6 @@
 		81CA00971800FD8400B6F605 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CA00871800FD8300B6F605 /* MainStoryboard.storyboard */; };
 		81CA00981800FD8400B6F605 /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA008A1800FD8300B6F605 /* LoginTableViewController.m */; };
 		81CA009B1800FD8400B6F605 /* TrendViewController-Master.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA008F1800FD8400B6F605 /* TrendViewController-Master.m */; };
-		81CA009C1800FD8400B6F605 /* TrendViewController-Master.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81CA00901800FD8400B6F605 /* TrendViewController-Master.xib */; };
 		81CA009E1800FD8400B6F605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA00941800FD8400B6F605 /* ViewController.m */; };
 		81CA00A11801062800B6F605 /* TrendViewController-Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA00A01801062800B6F605 /* TrendViewController-Detail.m */; };
 		EB439188157818DE00DE8E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB439187157818DE00DE8E91 /* UIKit.framework */; };
@@ -38,7 +37,6 @@
 		81CA008A1800FD8300B6F605 /* LoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
 		81CA008E1800FD8400B6F605 /* TrendViewController-Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrendViewController-Master.h"; sourceTree = "<group>"; };
 		81CA008F1800FD8400B6F605 /* TrendViewController-Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TrendViewController-Master.m"; sourceTree = "<group>"; };
-		81CA00901800FD8400B6F605 /* TrendViewController-Master.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TrendViewController-Master.xib"; sourceTree = "<group>"; };
 		81CA00931800FD8400B6F605 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		81CA00941800FD8400B6F605 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		81CA009F1801062800B6F605 /* TrendViewController-Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrendViewController-Detail.h"; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				81CA008A1800FD8300B6F605 /* LoginTableViewController.m */,
 				81CA008E1800FD8400B6F605 /* TrendViewController-Master.h */,
 				81CA008F1800FD8400B6F605 /* TrendViewController-Master.m */,
-				81CA00901800FD8400B6F605 /* TrendViewController-Master.xib */,
 				81CA00931800FD8400B6F605 /* ViewController.h */,
 				81CA00941800FD8400B6F605 /* ViewController.m */,
 				81CA009F1801062800B6F605 /* TrendViewController-Detail.h */,
@@ -179,7 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81CA009C1800FD8400B6F605 /* TrendViewController-Master.xib in Resources */,
 				817D30D91804CF2A00621B44 /* app-bits_free_tabbar_icons in Resources */,
 				81CA00971800FD8400B6F605 /* MainStoryboard.storyboard in Resources */,
 				817D2E901804CDC000621B44 /* SocApp-Info.plist in Resources */,
