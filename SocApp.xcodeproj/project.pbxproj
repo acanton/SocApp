@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81091E6E1822E322007D5225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81091E6D1822E321007D5225 /* Images.xcassets */; };
 		81493B2418007F7C00A31655 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81493B2318007F7C00A31655 /* Default-568h@2x.png */; };
 		81601CB31821ACFA00729FD9 /* MessageComposerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */; };
-		81601CB41821ACFA00729FD9 /* SocApp.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 81601CB21821ACFA00729FD9 /* SocApp.entitlements */; };
 		81601CB71821AD2D00729FD9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB51821AD2D00729FD9 /* MessageUI.framework */; };
 		81601CB81821AD2D00729FD9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB61821AD2D00729FD9 /* Twitter.framework */; };
 		81601CBA1821AD5E00729FD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB91821AD5E00729FD9 /* AudioToolbox.framework */; };
+		81601CBB1821E7B900729FD9 /* SocApp.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 81601CBD1821E7B900729FD9 /* SocApp.entitlements */; };
 		817D2E8F1804CDC000621B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D2E8B1804CDC000621B44 /* main.m */; };
-		817D2E901804CDC000621B44 /* SocApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 817D2E8C1804CDC000621B44 /* SocApp-Info.plist */; };
 		817D2E911804CDC000621B44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817D2E8E1804CDC000621B44 /* InfoPlist.strings */; };
 		817D30D91804CF2A00621B44 /* app-bits_free_tabbar_icons in Resources */ = {isa = PBXBuildFile; fileRef = 817D30D81804CF2A00621B44 /* app-bits_free_tabbar_icons */; };
 		81CA00951800FD8400B6F605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA00841800FD8300B6F605 /* AppDelegate.m */; };
@@ -29,13 +29,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81091E6D1822E321007D5225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81493B2318007F7C00A31655 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		81601CB01821ACFA00729FD9 /* MessageComposerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageComposerViewController.h; sourceTree = "<group>"; };
 		81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageComposerViewController.m; sourceTree = "<group>"; };
-		81601CB21821ACFA00729FD9 /* SocApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SocApp.entitlements; sourceTree = "<group>"; };
 		81601CB51821AD2D00729FD9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		81601CB61821AD2D00729FD9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		81601CB91821AD5E00729FD9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		81601CBC1821E7B900729FD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/SocApp.entitlements; sourceTree = "<group>"; };
 		817D2E8B1804CDC000621B44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SocApp/main.m; sourceTree = SOURCE_ROOT; };
 		817D2E8C1804CDC000621B44 /* SocApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SocApp-Info.plist"; path = "SocApp/SocApp-Info.plist"; sourceTree = SOURCE_ROOT; };
 		817D2E8D1804CDC000621B44 /* SocApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SocApp-Prefix.pch"; path = "SocApp/SocApp-Prefix.pch"; sourceTree = SOURCE_ROOT; };
@@ -78,7 +79,7 @@
 		81CA00821800FD8300B6F605 /* SocApp */ = {
 			isa = PBXGroup;
 			children = (
-				81601CB21821ACFA00729FD9 /* SocApp.entitlements */,
+				81601CBD1821E7B900729FD9 /* SocApp.entitlements */,
 				81CA00831800FD8300B6F605 /* AppDelegate.h */,
 				81CA00841800FD8300B6F605 /* AppDelegate.m */,
 				81CA00871800FD8300B6F605 /* MainStoryboard.storyboard */,
@@ -92,6 +93,7 @@
 				81CA00A01801062800B6F605 /* TrendViewController-Detail.m */,
 				81601CB01821ACFA00729FD9 /* MessageComposerViewController.h */,
 				81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */,
+				81091E6D1822E321007D5225 /* Images.xcassets */,
 				EB43918E157818DE00DE8E91 /* Supporting Files */,
 			);
 			path = SocApp;
@@ -198,8 +200,8 @@
 			files = (
 				817D30D91804CF2A00621B44 /* app-bits_free_tabbar_icons in Resources */,
 				81CA00971800FD8400B6F605 /* MainStoryboard.storyboard in Resources */,
-				817D2E901804CDC000621B44 /* SocApp-Info.plist in Resources */,
-				81601CB41821ACFA00729FD9 /* SocApp.entitlements in Resources */,
+				81091E6E1822E322007D5225 /* Images.xcassets in Resources */,
+				81601CBB1821E7B900729FD9 /* SocApp.entitlements in Resources */,
 				817D2E911804CDC000621B44 /* InfoPlist.strings in Resources */,
 				81493B2418007F7C00A31655 /* Default-568h@2x.png in Resources */,
 			);
@@ -225,6 +227,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		81601CBD1821E7B900729FD9 /* SocApp.entitlements */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81601CBC1821E7B900729FD9 /* en */,
+			);
+			name = SocApp.entitlements;
+			sourceTree = "<group>";
+		};
 		81CA00871800FD8300B6F605 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,6 +311,8 @@
 		EB4391A2157818DE00DE8E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = SocApp/SocApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -317,6 +329,8 @@
 		EB4391A3157818DE00DE8E91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = SocApp/SocApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

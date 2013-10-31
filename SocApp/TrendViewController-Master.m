@@ -62,7 +62,7 @@
 {
     if ([segue.identifier isEqualToString:@"showTrend"]) {
         
-        NSInteger row = [[self tableView].indexPathForSelectedRow row];
+        //NSInteger row = [[self tableView].indexPathForSelectedRow row];
         //NSDictionary *trend = [trends objectAtIndex:row];
         
         //TrendViewController_Detail *detailController = segue.destinationViewController;
