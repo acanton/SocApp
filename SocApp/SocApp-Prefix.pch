@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'MyFirstLoginApp' target in the 'MyFirstLoginApp' project
+// Prefix header for all source files of the 'SocApp' target in the 'SocApp' project
 //
 
 #import <Availability.h>

@@ -1,9 +1,9 @@
 //
 //  main.m
-//  MyFirstLoginApp
+//  SocApp
 //
-//  Created by William Richards on 5/31/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Alexander Canton
+//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
