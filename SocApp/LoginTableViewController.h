@@ -7,5 +7,7 @@
 
 @interface LoginTableViewController : UITableViewController
 
+-(IBAction)dismissKeyboard:(UITextField *)sender;
 @end
+
 

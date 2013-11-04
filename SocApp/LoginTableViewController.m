@@ -42,6 +42,10 @@
 }
 
 #pragma mark - barButton Outlet
+-(IBAction)dismissKeyboard:(UITextField *)sender
+{
+    [sender resignFirstResponder];
+}
 
 - (IBAction)loginButtonPressed:(UIBarButtonItem *)sender {
     NSLog(@"Log In button was pressed!");
