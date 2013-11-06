@@ -11,7 +11,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[UINavigationBar appearance] setBarTintColor:[UIColor yellowColor]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor grayColor]];
 
     return YES;
 }
