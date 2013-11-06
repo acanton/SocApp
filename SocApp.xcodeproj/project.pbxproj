@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		81091E6E1822E322007D5225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81091E6D1822E321007D5225 /* Images.xcassets */; };
 		81493B2418007F7C00A31655 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81493B2318007F7C00A31655 /* Default-568h@2x.png */; };
+		814DE8CE18295A0200126ECC /* SelectImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DE8CD18295A0200126ECC /* SelectImageViewController.m */; };
 		81601CB31821ACFA00729FD9 /* MessageComposerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */; };
 		81601CB71821AD2D00729FD9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB51821AD2D00729FD9 /* MessageUI.framework */; };
 		81601CB81821AD2D00729FD9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB61821AD2D00729FD9 /* Twitter.framework */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		81091E6D1822E321007D5225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81493B2318007F7C00A31655 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		814DE8CC18295A0200126ECC /* SelectImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectImageViewController.h; sourceTree = "<group>"; };
+		814DE8CD18295A0200126ECC /* SelectImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectImageViewController.m; sourceTree = "<group>"; };
 		81601CB01821ACFA00729FD9 /* MessageComposerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageComposerViewController.h; sourceTree = "<group>"; };
 		81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageComposerViewController.m; sourceTree = "<group>"; };
 		81601CB51821AD2D00729FD9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,8 @@
 				81CA008F1800FD8400B6F605 /* TrendViewController-Master.m */,
 				81CA00931800FD8400B6F605 /* ViewController.h */,
 				81CA00941800FD8400B6F605 /* ViewController.m */,
+				814DE8CC18295A0200126ECC /* SelectImageViewController.h */,
+				814DE8CD18295A0200126ECC /* SelectImageViewController.m */,
 				81CA009F1801062800B6F605 /* TrendViewController-Detail.h */,
 				81CA00A01801062800B6F605 /* TrendViewController-Detail.m */,
 				81601CB01821ACFA00729FD9 /* MessageComposerViewController.h */,
@@ -214,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814DE8CE18295A0200126ECC /* SelectImageViewController.m in Sources */,
 				81CA009B1800FD8400B6F605 /* TrendViewController-Master.m in Sources */,
 				81CA00981800FD8400B6F605 /* LoginTableViewController.m in Sources */,
 				81601CB31821ACFA00729FD9 /* MessageComposerViewController.m in Sources */,
