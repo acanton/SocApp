@@ -298,6 +298,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="wMj-fo-HTZ">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TEl-AB-Akn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController definesPresentationContext="YES" id="UNe-3r-KCD" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Na1-Pv-NL0"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -308,12 +309,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="53y-8h-aah" kind="relationship" relationship="viewControllers" id="C4k-fg-go2"/>
-                        <segue destination="7UL-PT-Ra5" kind="relationship" relationship="viewControllers" id="2JR-Op-M8a"/>
                         <segue destination="Ba2-xY-rgh" kind="relationship" relationship="viewControllers" id="Gh5-fR-pi1"/>
-                        <segue destination="B2W-wS-Vgu" kind="relationship" relationship="viewControllers" id="aP1-xd-DNP"/>
+                        <segue destination="7UL-PT-Ra5" kind="relationship" relationship="viewControllers" id="2JR-Op-M8a"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TEl-AB-Akn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2114" y="147"/>
         </scene>
@@ -423,21 +422,6 @@
             </objects>
             <point key="canvasLocation" x="2930" y="1028"/>
         </scene>
-        <!--View Controller - Who's Still Up?-->
-        <scene sceneID="3hZ-te-kwJ">
-            <objects>
-                <viewController id="B2W-wS-Vgu" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="L1l-90-t0R">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Who's Still Up?" image="clock.png" id="x7Q-jT-iIk"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MMn-rT-Odc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2930" y="1684"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Omy-p4-ytO">
             <objects>
@@ -476,7 +460,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="clock.png" width="26" height="26"/>
         <image name="globe.png" width="26" height="26"/>
         <image name="house.png" width="26" height="26"/>
         <image name="letter_closed.png" width="26" height="26"/>
