@@ -98,7 +98,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="LibraryPicture" destination="gEN-AZ-SlA" eventType="touchDragInside" id="vm5-AJ-jnt"/>
+                                    <action selector="LibraryPicture" destination="gEN-AZ-SlA" eventType="touchUpInside" id="6ob-E8-4km"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -358,7 +358,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qGu-Sj-COD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2930" y="-239"/>
+            <point key="canvasLocation" x="3456" y="-251"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="wMj-fo-HTZ">
@@ -501,7 +501,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMn-rT-Odc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2930" y="1684"/>
+            <point key="canvasLocation" x="3456" y="1664"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Omy-p4-ytO">
