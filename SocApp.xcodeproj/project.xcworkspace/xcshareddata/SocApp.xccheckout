@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D5020A4D-1907-4076-AEB5-DA76B32B0EC5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SocApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6ACA365D-37A8-4A7D-87C2-5BA7CA333AA5</key>
+		<string>https://github.com/acanton/SocApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SocApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6ACA365D-37A8-4A7D-87C2-5BA7CA333AA5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/acanton/SocApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6ACA365D-37A8-4A7D-87C2-5BA7CA333AA5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6ACA365D-37A8-4A7D-87C2-5BA7CA333AA5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SocApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

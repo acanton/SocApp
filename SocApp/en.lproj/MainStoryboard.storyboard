@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="664" y="145"/>
+            <point key="canvasLocation" x="652" y="147"/>
         </scene>
         <!--View Controller - Register-->
         <scene sceneID="I3B-ad-rFi">
@@ -77,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gwm-Rw-zRN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="664" y="744"/>
+            <point key="canvasLocation" x="652" y="744"/>
         </scene>
         <!--Select Image View Controller-->
         <scene sceneID="xyl-da-wC5">
@@ -129,7 +129,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bCh-YZ-ALK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="145"/>
+            <point key="canvasLocation" x="80" y="147"/>
         </scene>
         <!--Login Table View Controller - Log In-->
         <scene sceneID="Fqf-gN-Ccc">
@@ -349,7 +349,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="wMj-fo-HTZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TEl-AB-Akn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController definesPresentationContext="YES" id="UNe-3r-KCD" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Na1-Pv-NL0"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -364,6 +363,7 @@
                         <segue destination="7UL-PT-Ra5" kind="relationship" relationship="viewControllers" id="2JR-Op-M8a"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TEl-AB-Akn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2114" y="147"/>
         </scene>
@@ -498,6 +498,29 @@
             </objects>
             <point key="canvasLocation" x="2930" y="1684"/>
         </scene>
+        <!--Message Compose View Controller-->
+        <scene sceneID="NoY-Be-it2">
+            <objects>
+                <viewController id="1vs-v1-GzF" customClass="MFMessageComposeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HEY-RH-OSL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cex-Bl-7Ty">
+                                <rect key="frame" x="137" y="134" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SMS">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oWT-Gy-5nQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3450" y="1698"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Omy-p4-ytO">
             <objects>
@@ -554,6 +577,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="clock.png" width="26" height="26"/>
         <image name="globe.png" width="26" height="26"/>
         <image name="magnifying_glass.png" width="26" height="26"/>
         <image name="people_.png" width="26" height="26"/>

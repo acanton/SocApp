@@ -6,9 +6,9 @@
 //
 //
 
-#import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMessageComposeViewController.h>
 
-@interface MessageComposerViewController : UIViewController
+@interface MessageComposerViewController : UIViewController <MFMessageComposeViewControllerDelegate>
 
 @end
