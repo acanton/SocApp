@@ -213,5 +213,30 @@ UINavigationControllerDelegate
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
+#pragma mark - IBAction methods
+-(IBAction)sendSMS:(id)sender {
+    //check if the device can send text messages
+    if(![MFMessageComposeViewController canSendText]) {
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Your device cannot send text messages" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+        return;
+    }
+    
+    //set receipients
+    NSArray *recipients = [NSArray arrayWithObjects:@"0650454323",@"0434320943",@"0560984122", nil];
+    
+    //set message text
+    NSString * message = @"this is a simple sms sent form my demo app :)";
+    
+    MFMessageComposeViewController *messageController = [[MFMessageComposeViewController alloc] init];
+    messageController.messageComposeDelegate = self;
+    [messageController setRecipients:recipients];
+    [messageController setBody:message];
+    
+    // Present message view controller on screen
+    [self presentViewController:messageController animated:YES completion:nil];
+    
+}
+
 
 @end
