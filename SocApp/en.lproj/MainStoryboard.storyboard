@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="1vs-v1-GzF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4511" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="1vs-v1-GzF">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
     </dependencies>
     <scenes>
         <!--View Controller - Soc-->
@@ -98,7 +98,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="LibraryPicture" destination="gEN-AZ-SlA" eventType="touchDragInside" id="vm5-AJ-jnt"/>
+                                    <action selector="LibraryPicture" destination="gEN-AZ-SlA" eventType="touchUpInside" id="ws9-6c-KSn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -483,21 +483,6 @@
             </objects>
             <point key="canvasLocation" x="3456" y="1028"/>
         </scene>
-        <!--View Controller - Who's Still Up?-->
-        <scene sceneID="3hZ-te-kwJ">
-            <objects>
-                <viewController id="B2W-wS-Vgu" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="L1l-90-t0R">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Who's Still Up?" image="clock.png" id="x7Q-jT-iIk"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MMn-rT-Odc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2930" y="1684"/>
-        </scene>
         <!--Message Compose View Controller-->
         <scene sceneID="NoY-Be-it2">
             <objects>
@@ -577,7 +562,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="clock.png" width="26" height="26"/>
         <image name="globe.png" width="26" height="26"/>
         <image name="magnifying_glass.png" width="26" height="26"/>
         <image name="people_.png" width="26" height="26"/>
