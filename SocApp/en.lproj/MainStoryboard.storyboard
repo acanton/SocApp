@@ -298,7 +298,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="wMj-fo-HTZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TEl-AB-Akn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController definesPresentationContext="YES" id="UNe-3r-KCD" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Na1-Pv-NL0"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -313,6 +312,7 @@
                         <segue destination="7UL-PT-Ra5" kind="relationship" relationship="viewControllers" id="2JR-Op-M8a"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TEl-AB-Akn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2114" y="147"/>
         </scene>
