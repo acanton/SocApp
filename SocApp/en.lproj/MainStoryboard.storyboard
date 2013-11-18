@@ -411,7 +411,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Soc" image="globe.png" id="eqX-HG-vZM"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.png" id="eqX-HG-vZM"/>
                     <navigationItem key="navigationItem" title="Title" id="zbt-JP-b6z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CwQ-Of-Ncw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -456,7 +456,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="globe.png" width="26" height="26"/>
+        <image name="house.png" width="26" height="26"/>
         <image name="magnifying_glass.png" width="26" height="26"/>
         <image name="people_.png" width="26" height="26"/>
         <image name="speech_bubble_transparent.png" width="26" height="26"/>
