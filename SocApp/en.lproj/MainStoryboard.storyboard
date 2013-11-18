@@ -310,6 +310,7 @@
                         <segue destination="53y-8h-aah" kind="relationship" relationship="viewControllers" id="C4k-fg-go2"/>
                         <segue destination="Ba2-xY-rgh" kind="relationship" relationship="viewControllers" id="Gh5-fR-pi1"/>
                         <segue destination="7UL-PT-Ra5" kind="relationship" relationship="viewControllers" id="2JR-Op-M8a"/>
+                        <segue destination="11s-th-kPd" kind="relationship" relationship="viewControllers" id="ep7-Sp-Stv"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TEl-AB-Akn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -416,11 +417,26 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Soc" image="globe.png" id="eqX-HG-vZM"/>
+                    <tabBarItem key="tabBarItem" title="Soc" image="house.png" id="eqX-HG-vZM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CwQ-Of-Ncw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2930" y="1028"/>
+        </scene>
+        <!--View Controller - Check in-->
+        <scene sceneID="9aI-dF-FwM">
+            <objects>
+                <viewController id="11s-th-kPd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g8B-Ye-J2r">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Check in" image="star.png" id="w14-Ym-tGI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GNH-cK-sna" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2930" y="1716"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Omy-p4-ytO">
@@ -460,11 +476,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="globe.png" width="26" height="26"/>
         <image name="house.png" width="26" height="26"/>
         <image name="letter_closed.png" width="26" height="26"/>
         <image name="magnifying_glass.png" width="26" height="26"/>
         <image name="people_.png" width="26" height="26"/>
+        <image name="star.png" width="26" height="26"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -472,6 +488,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="nYA-1H-UFg"/>
+        <segue reference="hY1-1I-cK7"/>
     </inferredMetricsTieBreakers>
 </document>
