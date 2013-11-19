@@ -633,7 +633,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Soc" image="house.png" id="eqX-HG-vZM"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.png" id="eqX-HG-vZM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CwQ-Of-Ncw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
