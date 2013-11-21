@@ -7,11 +7,41 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window;  
+@synthesize window = _window;
+
+- (void)customizeAppearance
+{
+    // Create resizable images
+    UIImage *gradientImage44 = [[UIImage imageNamed:@"gradient_textured_44"]
+                                resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    UIImage *gradientImage32 = [[UIImage imageNamed:@"gradient_textured_32"]
+                                resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    
+    // Set the background image for *all* UINavigationBars
+    [[UINavigationBar appearance] setBackgroundImage:gradientImage44
+                                       forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setBackgroundImage:gradientImage32
+                                       forBarMetrics:UIBarMetricsLandscapePhone];
+    
+    // Customize the title text for *all* UINavigationBars
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0],
+      NSForegroundColorAttributeName,
+      [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8],
+      NSShadowAttributeName,
+      [NSValue valueWithUIOffset:UIOffsetMake(0, -1)],
+      NSShadowAttributeName,
+      [UIFont fontWithName:@"Arial-Bold" size:0.0],
+      NSFontAttributeName,
+      nil]];
+    [[UINavigationBar appearance] setShadowImage:[UIImage imageNamed:@"navBarShadow"]];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[UINavigationBar appearance] setBarTintColor:[UIColor yellowColor]];
+    [self customizeAppearance];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
 
     return YES;
 }

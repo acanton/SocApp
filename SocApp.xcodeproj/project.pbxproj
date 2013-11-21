@@ -24,6 +24,7 @@
 		81CA009B1800FD8400B6F605 /* TrendViewController-Master.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA008F1800FD8400B6F605 /* TrendViewController-Master.m */; };
 		81CA009E1800FD8400B6F605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA00941800FD8400B6F605 /* ViewController.m */; };
 		81CA00A11801062800B6F605 /* TrendViewController-Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA00A01801062800B6F605 /* TrendViewController-Detail.m */; };
+		81CF87BC183C4E4400017F73 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF87BB183C4E4400017F73 /* RootController.m */; };
 		EB439188157818DE00DE8E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB439187157818DE00DE8E91 /* UIKit.framework */; };
 		EB43918A157818DE00DE8E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB439189157818DE00DE8E91 /* Foundation.framework */; };
 		EB43918C157818DE00DE8E91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB43918B157818DE00DE8E91 /* CoreGraphics.framework */; };
@@ -55,6 +56,8 @@
 		81CA00941800FD8400B6F605 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		81CA009F1801062800B6F605 /* TrendViewController-Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrendViewController-Detail.h"; sourceTree = "<group>"; };
 		81CA00A01801062800B6F605 /* TrendViewController-Detail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TrendViewController-Detail.m"; sourceTree = "<group>"; };
+		81CF87BA183C4E4400017F73 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		81CF87BB183C4E4400017F73 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
 		EB439183157818DE00DE8E91 /* SocApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB439187157818DE00DE8E91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB439189157818DE00DE8E91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +88,8 @@
 				81601CBD1821E7B900729FD9 /* SocApp.entitlements */,
 				81CA00831800FD8300B6F605 /* AppDelegate.h */,
 				81CA00841800FD8300B6F605 /* AppDelegate.m */,
+				81CF87BA183C4E4400017F73 /* RootController.h */,
+				81CF87BB183C4E4400017F73 /* RootController.m */,
 				81CA00871800FD8300B6F605 /* MainStoryboard.storyboard */,
 				81CA00891800FD8300B6F605 /* LoginTableViewController.h */,
 				81CA008A1800FD8300B6F605 /* LoginTableViewController.m */,
@@ -221,6 +226,7 @@
 				81CA009B1800FD8400B6F605 /* TrendViewController-Master.m in Sources */,
 				81CA00981800FD8400B6F605 /* LoginTableViewController.m in Sources */,
 				81601CB31821ACFA00729FD9 /* MessageComposerViewController.m in Sources */,
+				81CF87BC183C4E4400017F73 /* RootController.m in Sources */,
 				81CA009E1800FD8400B6F605 /* ViewController.m in Sources */,
 				81CA00A11801062800B6F605 /* TrendViewController-Detail.m in Sources */,
 				817D2E8F1804CDC000621B44 /* main.m in Sources */,
