@@ -1,0 +1,5 @@
+/Users/kamali/Desktop/SocApp/bindings/SocAppBindings/SocAppBindings/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/kamali/Desktop/SocApp/bindings/SocAppBindings/SocAppBindings/bin/Debug/SocAppBindings.dll.mdb
+/Users/kamali/Desktop/SocApp/bindings/SocAppBindings/SocAppBindings/bin/Debug/SocAppBindings.dll
+/Users/kamali/Desktop/SocApp/bindings/SocAppBindings/SocAppBindings/obj/Debug/SocAppBindings.dll
+/Users/kamali/Desktop/SocApp/bindings/SocAppBindings/SocAppBindings/obj/Debug/SocAppBindings.dll.mdb

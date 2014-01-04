@@ -41,7 +41,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [self customizeAppearance];
- //probfile   [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
+//problemline!    [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
 
     return YES;
 }

@@ -1,0 +1,6 @@
+obj/Debug/ios/ObjCRuntime/Messaging.g.cs
+obj/Debug/ios/SocAppBindings/AppDelegate.g.cs
+obj/Debug/ios/SocAppBindings/LoginTableViewController.g.cs
+obj/Debug/ios/SocAppBindings/RootController.g.cs
+obj/Debug/ios/SocAppBindings/SelectImageViewController.g.cs
+obj/Debug/ios/SocAppBindings/TrendViewController_Master.g.cs
