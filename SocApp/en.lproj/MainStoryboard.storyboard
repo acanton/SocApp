@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="aP4-xT-P75">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4511" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="aP4-xT-P75">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
     </dependencies>
     <scenes>
         <!--View Controller - Soc-->
@@ -312,7 +312,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Venue" image="magnifying_glass.png" id="sJM-ax-dkp"/>
+                    <tabBarItem key="tabBarItem" title="My Entourages" image="people_family.png" id="sJM-ax-dkp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qGu-Sj-COD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -332,8 +332,8 @@
                     <connections>
                         <segue destination="Ba2-xY-rgh" kind="relationship" relationship="viewControllers" id="Gh5-fR-pi1"/>
                         <segue destination="7UL-PT-Ra5" kind="relationship" relationship="viewControllers" id="2JR-Op-M8a"/>
-                        <segue destination="53y-8h-aah" kind="relationship" relationship="viewControllers" id="C4k-fg-go2"/>
                         <segue destination="11s-th-kPd" kind="relationship" relationship="viewControllers" id="ep7-Sp-Stv"/>
+                        <segue destination="53y-8h-aah" kind="relationship" relationship="viewControllers" id="C4k-fg-go2"/>
                         <segue destination="P2I-W9-Krz" kind="relationship" relationship="viewControllers" id="iXS-7q-tXS"/>
                     </connections>
                 </tabBarController>
@@ -785,8 +785,8 @@
     <resources>
         <image name="globe.png" width="26" height="26"/>
         <image name="house.png" width="26" height="26"/>
-        <image name="magnifying_glass.png" width="26" height="26"/>
         <image name="people_.png" width="26" height="26"/>
+        <image name="people_family.png" width="26" height="26"/>
         <image name="rss.png" width="26" height="26"/>
         <image name="speech_bubble_transparent.png" width="26" height="26"/>
         <image name="star.png" width="26" height="26"/>
@@ -797,6 +797,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="hY1-1I-cK7"/>
+        <segue reference="nYA-1H-UFg"/>
     </inferredMetricsTieBreakers>
 </document>
