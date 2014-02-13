@@ -5,6 +5,7 @@
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
 #import "LoginViewController.h"
+#import "BlogTableViewController.h"
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #pragma mark- UIApplicationDelegate
@@ -50,12 +51,28 @@
     // ****************************************************************************
     // Fill in with your Parse credentials:
     // ****************************************************************************
-    // [Parse setApplicationId:@"your_application_id" clientKey:@"your_client_key"];
+    
+    [Parse setApplicationId:@"your_application_id" clientKey:@"your_client_key"];
+    
     
     // ****************************************************************************
     // Your Facebook application id is configured in Info.plist.
     // ****************************************************************************
     [PFFacebookUtils initializeFacebook];
+    
+    PFUser *user = [PFUser user];
+    user.username = @"Matt";
+    user.password = @"password";
+    user.email = @"Matt@example.com";
+    [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (!error) {
+            // Hooray! Let them use the app now.
+        } else {
+            [PFUser logInWithUsername:@"Matt" password:@"password"];
+        }
+    }];
+
+    
     
     // Override point for customization after application launch.
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LoginViewController alloc] init]];
