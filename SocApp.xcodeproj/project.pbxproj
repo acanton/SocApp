@@ -69,7 +69,7 @@
 		817D30D81804CF2A00621B44 /* app-bits_free_tabbar_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "app-bits_free_tabbar_icons"; sourceTree = SOURCE_ROOT; };
 		818FCBC518AB08C3006DF0AA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		818FCBC718AB093F006DF0AA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		818FCBD018AB0C43006DF0AA /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		818FCBD018AB0C43006DF0AA /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
 		818FCBEE18AB19A0006DF0AA /* login-button-small-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small-pressed.png"; sourceTree = SOURCE_ROOT; };
 		818FCBEF18AB19A0006DF0AA /* login-button-small-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small-pressed@2x.png"; sourceTree = SOURCE_ROOT; };
 		818FCBF018AB19A0006DF0AA /* login-button-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small.png"; sourceTree = SOURCE_ROOT; };
