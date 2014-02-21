@@ -112,6 +112,8 @@ typedef enum
 
 
 @interface SWRevealViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *newsFeed;
+
 
 // Object instance init and rear view setting
 - (id)initWithRearViewController:(UIViewController *)rearViewController frontViewController:(UIViewController *)frontViewController;
