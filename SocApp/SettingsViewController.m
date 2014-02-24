@@ -6,33 +6,42 @@
 //
 //
 
+
 #import "SettingsViewController.h"
+#import "Foursquare2.h"
 
 @interface SettingsViewController ()
-
+@property (strong, nonatomic) IBOutlet UILabel *name;
 @end
 
 @implementation SettingsViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    [self prepareViewForUser];
+    self.title = @"Settings";
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)prepareViewForUser {
+    [Foursquare2  userGetDetail:@"self"
+                       callback:^(BOOL success, id result){
+                           if (success) {
+                               self.name.text =
+                               [NSString stringWithFormat:@"%@ %@",
+                                [result valueForKeyPath:@"response.user.firstName"],
+                                [result valueForKeyPath:@"response.user.lastName"]];
+                           }
+                       }];
+}
+
+- (void)viewDidUnload {
+    [self setName:nil];
+    [super viewDidUnload];
+}
+
+- (IBAction)logout:(id)sender {
+    [Foursquare2 removeAccessToken];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

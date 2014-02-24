@@ -497,10 +497,10 @@
             </objects>
             <point key="canvasLocation" x="4351" y="1108"/>
         </scene>
-        <!--Table View Controller - Nearby-->
+        <!--Nearby Venues View Controller - Nearby-->
         <scene sceneID="fBH-Ro-iqd">
             <objects>
-                <tableViewController id="kfu-Z6-wXN" sceneMemberID="viewController">
+                <tableViewController id="kfu-Z6-wXN" customClass="NearbyVenuesViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="YHn-Vw-awg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -532,15 +532,18 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="ZUH-5k-wMj"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="Nearby" destination="zjx-Ft-36V" id="BfB-QL-G5M"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8uQ-5O-rcq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4371" y="2031"/>
         </scene>
-        <!--Table View Controller - Venue Search-->
+        <!--Search View Controller - Venue Search-->
         <scene sceneID="7Al-mw-2ik">
             <objects>
-                <tableViewController id="7yJ-ZF-kjX" sceneMemberID="viewController">
+                <tableViewController id="7yJ-ZF-kjX" customClass="SearchViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="O8T-KO-s8m">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -920,10 +923,10 @@
             </objects>
             <point key="canvasLocation" x="1124" y="897"/>
         </scene>
-        <!--View Controller - Check In-->
+        <!--Checkin View Controller - Check In-->
         <scene sceneID="jeY-cl-UAd">
             <objects>
-                <viewController id="edg-2d-EHH" sceneMemberID="viewController">
+                <viewController id="edg-2d-EHH" customClass="CheckinViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NiL-Wn-ox0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -934,6 +937,9 @@
                                 <state key="normal" title="Check-In">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkin:" destination="edg-2d-EHH" eventType="touchUpInside" id="ayH-Lu-jgw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eft-qC-FL5">
                                 <rect key="frame" x="139" y="218" width="42" height="21"/>

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CheckInViewController : UIViewController
+@class FSVenue;
+@interface CheckinViewController : UIViewController
+
+@property (strong, nonatomic) FSVenue *venue;
 
 @end

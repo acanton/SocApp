@@ -10,4 +10,6 @@
 
 @interface FSConverter : NSObject
 
+- (NSArray *)convertToObjects:(NSArray *)venues;
+
 @end

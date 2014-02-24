@@ -87,7 +87,7 @@
 		81CFF67F18BB1B9900ED6218 /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF67E18BB1B9900ED6218 /* FSConverter.m */; };
 		81CFF68218BB1BCC00ED6218 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68118BB1BCC00ED6218 /* FSAppDelegate.m */; };
 		81CFF68518BB1C0E00ED6218 /* NearbyVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68418BB1C0E00ED6218 /* NearbyVenuesViewController.m */; };
-		81CFF68818BB1C4100ED6218 /* CheckInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68718BB1C4100ED6218 /* CheckInViewController.m */; };
+		81CFF68818BB1C4100ED6218 /* CheckinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68718BB1C4100ED6218 /* CheckinViewController.m */; };
 		81CFF68B18BB1C6400ED6218 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68A18BB1C6400ED6218 /* SettingsViewController.m */; };
 		81CFF68E18BB1C9600ED6218 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68D18BB1C9600ED6218 /* SearchViewController.m */; };
 		81E7DCFA18B6FCF8003CE00A /* testimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81E7DCF918B6FCF8003CE00A /* testimage@2x.png */; };
@@ -201,8 +201,8 @@
 		81CFF68118BB1BCC00ED6218 /* FSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
 		81CFF68318BB1C0E00ED6218 /* NearbyVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyVenuesViewController.h; sourceTree = "<group>"; };
 		81CFF68418BB1C0E00ED6218 /* NearbyVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyVenuesViewController.m; sourceTree = "<group>"; };
-		81CFF68618BB1C4100ED6218 /* CheckInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInViewController.h; sourceTree = "<group>"; };
-		81CFF68718BB1C4100ED6218 /* CheckInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInViewController.m; sourceTree = "<group>"; };
+		81CFF68618BB1C4100ED6218 /* CheckinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckinViewController.h; sourceTree = "<group>"; };
+		81CFF68718BB1C4100ED6218 /* CheckinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckinViewController.m; sourceTree = "<group>"; };
 		81CFF68918BB1C6400ED6218 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		81CFF68A18BB1C6400ED6218 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		81CFF68C18BB1C9600ED6218 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
@@ -296,6 +296,8 @@
 		81C723E418ABCA7800C438A8 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
+				81CFF68018BB1BCC00ED6218 /* FSAppDelegate.h */,
+				81CFF68118BB1BCC00ED6218 /* FSAppDelegate.m */,
 				81CA00831800FD8300B6F605 /* AppDelegate.h */,
 				81CA00841800FD8300B6F605 /* AppDelegate.m */,
 			);
@@ -331,20 +333,7 @@
 				81C723E418ABCA7800C438A8 /* Delegate */,
 				81A9359B18AC483E0077BBD4 /* Basic Use classes  */,
 				81CA00871800FD8300B6F605 /* MainStoryboard.storyboard */,
-				81CFF67A18BB1B5C00ED6218 /* FSVenue.h */,
-				81CFF67B18BB1B5C00ED6218 /* FSVenue.m */,
-				81CFF67D18BB1B9900ED6218 /* FSConverter.h */,
-				81CFF67E18BB1B9900ED6218 /* FSConverter.m */,
-				81CFF68018BB1BCC00ED6218 /* FSAppDelegate.h */,
-				81CFF68118BB1BCC00ED6218 /* FSAppDelegate.m */,
-				81CFF68318BB1C0E00ED6218 /* NearbyVenuesViewController.h */,
-				81CFF68418BB1C0E00ED6218 /* NearbyVenuesViewController.m */,
-				81CFF68618BB1C4100ED6218 /* CheckInViewController.h */,
-				81CFF68718BB1C4100ED6218 /* CheckInViewController.m */,
-				81CFF68918BB1C6400ED6218 /* SettingsViewController.h */,
-				81CFF68A18BB1C6400ED6218 /* SettingsViewController.m */,
-				81CFF68C18BB1C9600ED6218 /* SearchViewController.h */,
-				81CFF68D18BB1C9600ED6218 /* SearchViewController.m */,
+				81CFF68F18BB1D1B00ED6218 /* VenueCheckIn Classes */,
 				81CFF5F418BAD5C100ED6218 /* Foursquare2 */,
 				81A9359A18AC481C0077BBD4 /* News feed classes  */,
 				81C723E518ABCAA800C438A8 /* LoginViewControllers */,
@@ -410,6 +399,25 @@
 			);
 			path = "App icons";
 			sourceTree = SOURCE_ROOT;
+		};
+		81CFF68F18BB1D1B00ED6218 /* VenueCheckIn Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81CFF67A18BB1B5C00ED6218 /* FSVenue.h */,
+				81CFF67B18BB1B5C00ED6218 /* FSVenue.m */,
+				81CFF67D18BB1B9900ED6218 /* FSConverter.h */,
+				81CFF67E18BB1B9900ED6218 /* FSConverter.m */,
+				81CFF68318BB1C0E00ED6218 /* NearbyVenuesViewController.h */,
+				81CFF68418BB1C0E00ED6218 /* NearbyVenuesViewController.m */,
+				81CFF68618BB1C4100ED6218 /* CheckinViewController.h */,
+				81CFF68718BB1C4100ED6218 /* CheckinViewController.m */,
+				81CFF68918BB1C6400ED6218 /* SettingsViewController.h */,
+				81CFF68A18BB1C6400ED6218 /* SettingsViewController.m */,
+				81CFF68C18BB1C9600ED6218 /* SearchViewController.h */,
+				81CFF68D18BB1C9600ED6218 /* SearchViewController.m */,
+			);
+			name = "VenueCheckIn Classes";
+			sourceTree = "<group>";
 		};
 		EB439178157818DE00DE8E91 = {
 			isa = PBXGroup;
@@ -601,7 +609,7 @@
 				81CA00951800FD8400B6F605 /* AppDelegate.m in Sources */,
 				81C723E918ABCB1600C438A8 /* SWRevealViewController.m in Sources */,
 				81CFF68B18BB1C6400ED6218 /* SettingsViewController.m in Sources */,
-				81CFF68818BB1C4100ED6218 /* CheckInViewController.m in Sources */,
+				81CFF68818BB1C4100ED6218 /* CheckinViewController.m in Sources */,
 				81CFF68218BB1BCC00ED6218 /* FSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

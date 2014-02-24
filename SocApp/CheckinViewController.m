@@ -6,33 +6,61 @@
 //
 //
 
-#import "CheckInViewController.h"
+#import "CheckinViewController.h"
+#import "Foursquare2.h"
+#import "FSVenue.h"
 
-@interface CheckInViewController ()
+@interface CheckinViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *venueName;
+@property (weak, nonatomic) IBOutlet UIButton *uploadPhotButton;
+@property (strong, nonatomic) NSString *checkin;
+
+- (IBAction)checkin:(id)sender;
 @end
 
-@implementation CheckInViewController
+@implementation CheckinViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.title = @"Checkin";
+    self.venueName.text = self.venue.name;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)checkin:(id)sender {
+    [Foursquare2 checkinAddAtVenue:self.venue.venueId
+                             shout:@"Testing"
+                          callback:^(BOOL success, id result) {
+                              if (success) {
+                                  self.checkin = [result valueForKeyPath:@"response.checkin.id"];
+                                  [self showAlertViewWithTitle:@"Checkin Successfull"];
+                                  self.uploadPhotButton.enabled = YES;
+                              }
+                          }];
+}
+
+- (IBAction)addPhoto:(id)sender {
+    [Foursquare2 photoAdd:[UIImage imageNamed:@"testimage@2x.png"]
+                toCheckin:self.checkin
+                 callback:^(BOOL success, id result) {
+                     if (success) {
+                         [self showAlertViewWithTitle:@"Photo was added"];
+                     }
+                 }];
+}
+
+- (void)showAlertViewWithTitle:(NSString *)title {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title
+                                                    message:nil
+                                                   delegate:self
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
 }
 
 @end
+
