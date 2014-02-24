@@ -221,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TNW-Cx-n0s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4781" y="-800"/>
+            <point key="canvasLocation" x="5889" y="-1247"/>
         </scene>
         <!--View Controller - Trend-->
         <scene sceneID="bwN-GK-Mf6">
@@ -255,7 +255,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L61-7I-5iy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5212" y="-800"/>
+            <point key="canvasLocation" x="6320" y="-1247"/>
         </scene>
         <!--Table View Controller - Profile-->
         <scene sceneID="wQ4-P1-dPi">
@@ -323,8 +323,8 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Profile" image="people_.png" id="eHm-gi-vgT"/>
                     <navigationItem key="navigationItem" title="Profile" id="BXt-fu-77Q">
-                        <barButtonItem key="leftBarButtonItem" image="rss.png" id="0Zl-WO-pIZ"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="1l3-lx-vTR"/>
+                        <barButtonItem key="leftBarButtonItem" image="app icon-icon-29.png" id="0Zl-WO-pIZ"/>
+                        <barButtonItem key="rightBarButtonItem" image="photos_polaroid.png" id="1l3-lx-vTR"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v5M-Ma-xLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -379,8 +379,8 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="My Entourage" image="people_family.png" id="gFJ-Mz-Mpw"/>
                     <navigationItem key="navigationItem" title="Entourage" id="pFr-do-jT5">
-                        <barButtonItem key="leftBarButtonItem" image="rss.png" id="5y3-z3-oVB"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="VtG-aM-uhZ"/>
+                        <barButtonItem key="leftBarButtonItem" image="app icon-icon-29.png" id="5y3-z3-oVB"/>
+                        <barButtonItem key="rightBarButtonItem" image="photos_polaroid.png" id="VtG-aM-uhZ"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JUb-xU-vHz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -607,7 +607,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K5V-WY-U4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4351" y="-805"/>
+            <point key="canvasLocation" x="5459" y="-1252"/>
         </scene>
         <!--Table View Controller - Home-->
         <scene sceneID="XnS-Lv-cCo">
@@ -639,8 +639,12 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Home" image="house.png" id="Gta-SZ-4ts"/>
                     <navigationItem key="navigationItem" title="Home" id="6IQ-DY-hm8">
-                        <barButtonItem key="leftBarButtonItem" image="rss.png" id="dLI-Ha-YOs"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="9Dg-Ie-5L7"/>
+                        <barButtonItem key="leftBarButtonItem" image="app icon-icon-29.png" id="dLI-Ha-YOs"/>
+                        <barButtonItem key="rightBarButtonItem" image="photos_polaroid.png" id="9Dg-Ie-5L7">
+                            <connections>
+                                <segue destination="7cm-5n-fZ6" kind="custom" customClass="SWRevealViewControllerSegue" id="btI-Zv-stV"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <segue destination="N1z-1Z-fPR" kind="custom" identifier="Tinder" customClass="SWRevealViewControllerSegue" id="vBq-Qb-mx6"/>
@@ -675,6 +679,47 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O0z-5t-gUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3676" y="-427"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7oU-6n-xZI">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="6UT-k0-ASI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="D95-eA-AcI">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t5M-Lk-0Nq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4265" y="-1230"/>
+        </scene>
+        <!--Table View Controller - Messages-->
+        <scene sceneID="4ls-Qv-ata">
+            <objects>
+                <tableViewController id="7cm-5n-fZ6" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="7Nc-hn-cGv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="x8D-Mp-8zy">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x8D-Mp-8zy" id="OEh-wC-nr1">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="7cm-5n-fZ6" id="nvC-dB-sLt"/>
+                            <outlet property="delegate" destination="7cm-5n-fZ6" id="K0m-pl-wqd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Messages" id="yKC-Og-o4S"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="max-e7-VGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4265" y="-427"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pqj-vh-kNe">
@@ -948,6 +993,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="app icon-icon-29.png" width="29" height="29"/>
         <image name="globe.png" width="26" height="26"/>
         <image name="house.png" width="26" height="26"/>
         <image name="login-button-small-pressed.png" width="151" height="43"/>
@@ -955,7 +1001,7 @@
         <image name="pacman.png" width="26" height="26"/>
         <image name="people_.png" width="26" height="26"/>
         <image name="people_family.png" width="26" height="26"/>
-        <image name="rss.png" width="26" height="26"/>
+        <image name="photos_polaroid.png" width="26" height="26"/>
         <image name="star.png" width="26" height="26"/>
         <image name="testimage.png" width="54" height="94"/>
     </resources>

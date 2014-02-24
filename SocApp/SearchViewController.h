@@ -2,12 +2,12 @@
 //  SearchViewController.h
 //  SocApp
 //
-//  Created by Alexander Canton on 2/20/14.
+//  Created by Alexander Canton on 2/24/14.
 //
 //
 
 #import <UIKit/UIKit.h>
 
-@interface SearchViewController : UIViewController
+@interface SearchViewController : UITableViewController
 
 @end
