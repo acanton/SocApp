@@ -436,52 +436,6 @@
             </objects>
             <point key="canvasLocation" x="3144" y="1925"/>
         </scene>
-        <!--Root Controller - Venue Page-->
-        <scene sceneID="Zv2-IW-xoi">
-            <objects>
-                <viewController title="Venue Page" id="goH-3d-NGf" customClass="RootController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tQ8-aT-K7i">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="loO-Vx-95B">
-                                <rect key="frame" x="0.0" y="44" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <sections>
-                                    <tableViewSection id="Lyd-rb-vTY">
-                                        <cells>
-                                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="rM4-Ie-Dxj">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rM4-Ie-Dxj" id="TVD-xd-wa9">
-                                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                </tableViewCellContentView>
-                                                <connections>
-                                                    <segue destination="ycc-5k-aVa" kind="push" id="O8T-S0-nhS"/>
-                                                </connections>
-                                            </tableViewCell>
-                                        </cells>
-                                    </tableViewSection>
-                                </sections>
-                            </tableView>
-                            <navigationBar contentMode="scaleToFill" id="1gn-Hr-mUZ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="LLY-m1-g7B"/>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="kiP-4X-Ba3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F7h-WS-Uxm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3845" y="1108"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="kWu-KD-Izs">
             <objects>
