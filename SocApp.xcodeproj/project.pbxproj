@@ -91,6 +91,8 @@
 		81CFF68B18BB1C6400ED6218 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68A18BB1C6400ED6218 /* SettingsViewController.m */; };
 		81CFF68E18BB1C9600ED6218 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68D18BB1C9600ED6218 /* SearchViewController.m */; };
 		81E7DCFA18B6FCF8003CE00A /* testimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81E7DCF918B6FCF8003CE00A /* testimage@2x.png */; };
+		9ADC84DD18EA36C10044C6A0 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC84DC18EA36C10044C6A0 /* HomeTableViewController.m */; };
+		9ADC84E018EA4B840044C6A0 /* VenueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC84DF18EA4B840044C6A0 /* VenueObject.m */; };
 		EB439188157818DE00DE8E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB439187157818DE00DE8E91 /* UIKit.framework */; };
 		EB43918A157818DE00DE8E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB439189157818DE00DE8E91 /* Foundation.framework */; };
 		EB43918C157818DE00DE8E91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB43918B157818DE00DE8E91 /* CoreGraphics.framework */; };
@@ -208,6 +210,10 @@
 		81CFF68C18BB1C9600ED6218 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		81CFF68D18BB1C9600ED6218 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		81E7DCF918B6FCF8003CE00A /* testimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testimage@2x.png"; sourceTree = SOURCE_ROOT; };
+		9ADC84DB18EA36C10044C6A0 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		9ADC84DC18EA36C10044C6A0 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		9ADC84DE18EA4B840044C6A0 /* VenueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueObject.h; sourceTree = "<group>"; };
+		9ADC84DF18EA4B840044C6A0 /* VenueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueObject.m; sourceTree = "<group>"; };
 		EB439183157818DE00DE8E91 /* SocApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB439187157818DE00DE8E91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB439189157818DE00DE8E91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -341,6 +347,10 @@
 				81C723E618ABCAC800C438A8 /* Library */,
 				81091E6D1822E321007D5225 /* Images.xcassets */,
 				EB43918E157818DE00DE8E91 /* Supporting Files */,
+				9ADC84DB18EA36C10044C6A0 /* HomeTableViewController.h */,
+				9ADC84DC18EA36C10044C6A0 /* HomeTableViewController.m */,
+				9ADC84DE18EA4B840044C6A0 /* VenueObject.h */,
+				9ADC84DF18EA4B840044C6A0 /* VenueObject.m */,
 			);
 			path = SocApp;
 			sourceTree = SOURCE_ROOT;
@@ -591,6 +601,7 @@
 				81601CB31821ACFA00729FD9 /* MessageComposerViewController.m in Sources */,
 				81CFF67C18BB1B5C00ED6218 /* FSVenue.m in Sources */,
 				81CF87BC183C4E4400017F73 /* RootController.m in Sources */,
+				9ADC84E018EA4B840044C6A0 /* VenueObject.m in Sources */,
 				81A9359618AC44690077BBD4 /* NewPostViewController.m in Sources */,
 				81CFF67F18BB1B9900ED6218 /* FSConverter.m in Sources */,
 				818FCBFA18AB1B1C006DF0AA /* LoginViewController.m in Sources */,
@@ -607,6 +618,7 @@
 				81A9359918AC45DD0077BBD4 /* BlogTableViewController.m in Sources */,
 				81CFF60918BAD5C100ED6218 /* FSWebLogin.m in Sources */,
 				81CA00951800FD8400B6F605 /* AppDelegate.m in Sources */,
+				9ADC84DD18EA36C10044C6A0 /* HomeTableViewController.m in Sources */,
 				81C723E918ABCB1600C438A8 /* SWRevealViewController.m in Sources */,
 				81CFF68B18BB1C6400ED6218 /* SettingsViewController.m in Sources */,
 				81CFF68818BB1C4100ED6218 /* CheckinViewController.m in Sources */,
