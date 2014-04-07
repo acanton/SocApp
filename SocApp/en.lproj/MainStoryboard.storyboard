@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--View Controller - Soc-->
@@ -289,9 +289,9 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Lui-Cc-jen">
-                                            <rect key="frame" x="148" y="64" width="114" height="26"/>
+                                            <rect key="frame" x="148" y="64" width="121" height="26"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Soc Points" image="pacman.png">
+                                            <state key="normal" title=" Soc Points" image="combo_chart-25.png">
                                                 <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
@@ -321,10 +321,10 @@
                             <outlet property="delegate" destination="kvB-Jq-hA7" id="mEm-Gb-pa0"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Profile" image="people_.png" id="eHm-gi-vgT"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="administrator-32.png" id="eHm-gi-vgT"/>
                     <navigationItem key="navigationItem" title="Profile" id="BXt-fu-77Q">
                         <barButtonItem key="leftBarButtonItem" image="app icon-icon-29.png" id="0Zl-WO-pIZ"/>
-                        <barButtonItem key="rightBarButtonItem" image="photos_polaroid.png" id="1l3-lx-vTR"/>
+                        <barButtonItem key="rightBarButtonItem" image="topic-25.png" id="1l3-lx-vTR"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v5M-Ma-xLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -377,10 +377,10 @@
                             <outlet property="delegate" destination="CE8-fD-OPp" id="sax-OZ-AkF"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="My Entourage" image="people_family.png" id="gFJ-Mz-Mpw"/>
+                    <tabBarItem key="tabBarItem" title="My Entourage" image="conference-32.png" id="gFJ-Mz-Mpw"/>
                     <navigationItem key="navigationItem" title="Entourage" id="pFr-do-jT5">
                         <barButtonItem key="leftBarButtonItem" image="app icon-icon-29.png" id="5y3-z3-oVB"/>
-                        <barButtonItem key="rightBarButtonItem" image="photos_polaroid.png" id="VtG-aM-uhZ"/>
+                        <barButtonItem key="rightBarButtonItem" image="topic-25.png" id="VtG-aM-uhZ"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JUb-xU-vHz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -617,7 +617,7 @@
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Global" textLabel="N9F-ms-OoE" rowHeight="35" style="IBUITableViewCellStyleDefault" id="sab-on-Pp3">
                                         <rect key="frame" x="0.0" y="256" width="320" height="35"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sab-on-Pp3">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sab-on-Pp3" id="0V7-lv-UoY">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="34"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -672,7 +672,7 @@
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Nearby" textLabel="08q-no-3mY" rowHeight="35" style="IBUITableViewCellStyleDefault" id="pil-5h-fwx">
                                         <rect key="frame" x="0.0" y="409" width="320" height="35"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pil-5h-fwx">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pil-5h-fwx" id="HQ0-Ga-HSm">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="34"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -728,10 +728,10 @@
                             <outlet property="delegate" destination="w4e-Ay-mM4" id="wXe-4m-czr"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Home" image="house.png" id="Gta-SZ-4ts"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home-32.png" id="Gta-SZ-4ts"/>
                     <navigationItem key="navigationItem" title="Home" id="6IQ-DY-hm8">
                         <barButtonItem key="leftBarButtonItem" image="app icon-icon-29.png" id="dLI-Ha-YOs"/>
-                        <barButtonItem key="rightBarButtonItem" image="photos_polaroid.png" id="9Dg-Ie-5L7">
+                        <barButtonItem key="rightBarButtonItem" image="topic-25.png" id="9Dg-Ie-5L7">
                             <connections>
                                 <segue destination="7cm-5n-fZ6" kind="custom" customClass="SWRevealViewControllerSegue" id="btI-Zv-stV"/>
                             </connections>
@@ -1051,7 +1051,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Check-In" image="star.png" id="icY-yJ-W2z"/>
+                    <tabBarItem key="tabBarItem" title="Check-In" image="location-32.png" id="icY-yJ-W2z"/>
                     <navigationItem key="navigationItem" title="Check In" id="leq-Do-bix"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rEQ-Bh-IwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1096,17 +1096,17 @@
         </scene>
     </scenes>
     <resources>
+        <image name="administrator-32.png" width="32" height="32"/>
         <image name="app icon-icon-29.png" width="29" height="29"/>
+        <image name="combo_chart-25.png" width="25" height="25"/>
+        <image name="conference-32.png" width="32" height="32"/>
         <image name="globe.png" width="26" height="26"/>
-        <image name="house.png" width="26" height="26"/>
+        <image name="home-32.png" width="32" height="32"/>
+        <image name="location-32.png" width="32" height="32"/>
         <image name="login-button-small-pressed.png" width="151" height="43"/>
         <image name="login-button-small.png" width="151" height="43"/>
-        <image name="pacman.png" width="26" height="26"/>
-        <image name="people_.png" width="26" height="26"/>
-        <image name="people_family.png" width="26" height="26"/>
-        <image name="photos_polaroid.png" width="26" height="26"/>
-        <image name="star.png" width="26" height="26"/>
         <image name="testimage.png" width="54" height="94"/>
+        <image name="topic-25.png" width="25" height="25"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
