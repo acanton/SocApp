@@ -66,14 +66,19 @@
     [PFFacebookUtils initializeFacebook];
     
     PFUser *user = [PFUser user];
-    user.username = @"Matt";
+    user.username = @"John Doe";
     user.password = @"password";
-    user.email = @"Matt@example.com";
+    user.email = @"John@example.com";
+   
+    // other fields can be set if you want to save more information
+    user[@"phone"] = @"650-555-0000";
+    
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             // Hooray! Let them use the app now.
         } else {
-            [PFUser logInWithUsername:@"Matt" password:@"password"];
+            //NSString *errorString = [error userInfo][@"error"];
+            [PFUser logInWithUsername:@"John Doe" password:@"password"];
         }
     }];
 
