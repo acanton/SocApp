@@ -20,6 +20,7 @@
 		817D2E8F1804CDC000621B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D2E8B1804CDC000621B44 /* main.m */; };
 		817D2E911804CDC000621B44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817D2E8E1804CDC000621B44 /* InfoPlist.strings */; };
 		817D30D91804CF2A00621B44 /* app-bits_free_tabbar_icons in Resources */ = {isa = PBXBuildFile; fileRef = 817D30D81804CF2A00621B44 /* app-bits_free_tabbar_icons */; };
+		817D894E18F46A2600F5A86C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 817D894D18F46A2600F5A86C /* libz.dylib */; };
 		818FCBC618AB08C3006DF0AA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCBC518AB08C3006DF0AA /* Social.framework */; };
 		818FCBC818AB093F006DF0AA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCBC718AB093F006DF0AA /* FacebookSDK.framework */; };
 		818FCBD118AB0C43006DF0AA /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 818FCBD018AB0C43006DF0AA /* FBUserSettingsViewResources.bundle */; };
@@ -9009,6 +9010,7 @@
 		817D2E8D1804CDC000621B44 /* SocApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SocApp-Prefix.pch"; path = "SocApp/SocApp-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		817D2E8E1804CDC000621B44 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = SocApp/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		817D30D81804CF2A00621B44 /* app-bits_free_tabbar_icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "app-bits_free_tabbar_icons"; sourceTree = SOURCE_ROOT; };
+		817D894D18F46A2600F5A86C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		818FCBC518AB08C3006DF0AA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		818FCBC718AB093F006DF0AA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		818FCBD018AB0C43006DF0AA /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
@@ -18012,6 +18014,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817D894E18F46A2600F5A86C /* libz.dylib in Frameworks */,
 				81CFF67918BB1A5E00ED6218 /* MapKit.framework in Frameworks */,
 				818FCC0918AB23E2006DF0AA /* MobileCoreServices.framework in Frameworks */,
 				818FCC0718AB23C0006DF0AA /* CFNetwork.framework in Frameworks */,
@@ -36484,6 +36487,7 @@
 		EB439186157818DE00DE8E91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				817D894D18F46A2600F5A86C /* libz.dylib */,
 				81CFF67818BB1A5E00ED6218 /* MapKit.framework */,
 				818FCC0818AB23E2006DF0AA /* MobileCoreServices.framework */,
 				818FCC0618AB23C0006DF0AA /* CFNetwork.framework */,

@@ -7,7 +7,7 @@
 #import "LoginViewController.h"
 #import "BlogTableViewController.h"
 
-#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+//#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #pragma mark- UIApplicationDelegate
 
 @implementation AppDelegate
@@ -45,16 +45,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    /*
+    
     [self customizeAppearance];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // ****************************************************************************
     // Fill in with your Parse credentials:
     // ****************************************************************************
-    
-    [Parse setApplicationId:@"your_application_id" clientKey:@"your_client_key"];
-    
+     
+     [Parse setApplicationId:@"sf45zE4aHjdMcaqOYygQITSJl9whF94OXlG6UVBm"
+     clientKey:@"F1i0luvOutvhBWopIrIBJ2QUt4VylBUDdC1C6yjB"];
+    //added api key to begin using database with application
+     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    //to track statistics around application opens
+
     
     // ****************************************************************************
     // Your Facebook application id is configured in Info.plist.
@@ -78,7 +82,7 @@
     // Override point for customization after application launch.
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LoginViewController alloc] init]];
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible]; */
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
