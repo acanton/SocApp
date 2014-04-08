@@ -38,6 +38,8 @@
 		818FCC0918AB23E2006DF0AA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCC0818AB23E2006DF0AA /* MobileCoreServices.framework */; };
 		81A9359618AC44690077BBD4 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A9359518AC44690077BBD4 /* NewPostViewController.m */; };
 		81A9359918AC45DD0077BBD4 /* BlogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A9359818AC45DD0077BBD4 /* BlogTableViewController.m */; };
+		81BDDD5218F3B50C002EA413 /* acf7ef943fdeb3cbfed8dd0d8f584731.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BDDD5118F3B50C002EA413 /* acf7ef943fdeb3cbfed8dd0d8f584731.png */; };
+		81BDDD5418F3BB6A002EA413 /* appicon-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BDDD5318F3BB6A002EA413 /* appicon-120x120.png */; };
 		81C723E918ABCB1600C438A8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C723E818ABCB1600C438A8 /* SWRevealViewController.m */; };
 		81CA00951800FD8400B6F605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA00841800FD8300B6F605 /* AppDelegate.m */; };
 		81CA00971800FD8400B6F605 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CA00871800FD8300B6F605 /* MainStoryboard.storyboard */; };
@@ -9029,6 +9031,8 @@
 		81A9359518AC44690077BBD4 /* NewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
 		81A9359718AC45DD0077BBD4 /* BlogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogTableViewController.h; sourceTree = "<group>"; };
 		81A9359818AC45DD0077BBD4 /* BlogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogTableViewController.m; sourceTree = "<group>"; };
+		81BDDD5118F3B50C002EA413 /* acf7ef943fdeb3cbfed8dd0d8f584731.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = acf7ef943fdeb3cbfed8dd0d8f584731.png; path = ../../Downloads/acf7ef943fdeb3cbfed8dd0d8f584731.png; sourceTree = "<group>"; };
+		81BDDD5318F3BB6A002EA413 /* appicon-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-120x120.png"; sourceTree = "<group>"; };
 		81C723E718ABCB1600C438A8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		81C723E818ABCB1600C438A8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		81CA00831800FD8300B6F605 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -18166,6 +18170,8 @@
 		81CFF64318BAD8AA00ED6218 /* App icons */ = {
 			isa = PBXGroup;
 			children = (
+				81BDDD5318F3BB6A002EA413 /* appicon-120x120.png */,
+				81BDDD5118F3B50C002EA413 /* acf7ef943fdeb3cbfed8dd0d8f584731.png */,
 				81CFF64418BAD8AA00ED6218 /* app icon-icon-1024-1.png */,
 				81CFF64518BAD8AA00ED6218 /* app icon-icon-1024.png */,
 				81CFF64618BAD8AA00ED6218 /* app icon-icon-114-1.png */,
@@ -38172,6 +38178,7 @@
 				81ED9F4518EDC46400F43A18 /* music-50.png in Resources */,
 				81ED9FB018EDC46400F43A18 /* cable_release-100.png in Resources */,
 				81EDA6AA18EDC46400F43A18 /* 2f_swipe_up-25.png in Resources */,
+				81BDDD5418F3BB6A002EA413 /* appicon-120x120.png in Resources */,
 				81EDA34A18EDC46400F43A18 /* price_tag_pound-25.png in Resources */,
 				81ED8F8518EDC46400F43A18 /* origami-50.png in Resources */,
 				81ED97DE18EDC46400F43A18 /* recycling-512.png in Resources */,
@@ -41831,6 +41838,7 @@
 				81ED924218EDC46400F43A18 /* 7zip-25.png in Resources */,
 				81ED97A518EDC46400F43A18 /* overhead_crane-50.png in Resources */,
 				81ED8EE518EDC46300F43A18 /* underwear_man-50.png in Resources */,
+				81BDDD5218F3B50C002EA413 /* acf7ef943fdeb3cbfed8dd0d8f584731.png in Resources */,
 				81ED992C18EDC46400F43A18 /* virtual_machine2-32.png in Resources */,
 				81ED97F218EDC46400F43A18 /* rfid_sensor-25.png in Resources */,
 				81EDA8D818EDC46400F43A18 /* remove_user-100.png in Resources */,

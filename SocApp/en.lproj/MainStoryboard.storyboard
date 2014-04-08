@@ -355,7 +355,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Notifications" image="globe.png" id="pq0-0g-UQa"/>
+                    <tabBarItem key="tabBarItem" title="Notifications" image="globe_filled-25.png" id="pq0-0g-UQa"/>
                     <navigationItem key="navigationItem" title="Notifications" id="yaN-8E-UAK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q8b-O1-F4X" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1157,7 +1157,7 @@
         <image name="administrator-32.png" width="32" height="32"/>
         <image name="app icon-icon-29.png" width="29" height="29"/>
         <image name="conference-32.png" width="32" height="32"/>
-        <image name="globe.png" width="26" height="26"/>
+        <image name="globe_filled-25.png" width="25" height="25"/>
         <image name="home-32.png" width="32" height="32"/>
         <image name="location-32.png" width="32" height="32"/>
         <image name="login-button-small-pressed.png" width="151" height="43"/>
