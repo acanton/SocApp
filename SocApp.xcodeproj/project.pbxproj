@@ -89,7 +89,6 @@
 		81CFF67918BB1A5E00ED6218 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CFF67818BB1A5E00ED6218 /* MapKit.framework */; };
 		81CFF67C18BB1B5C00ED6218 /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF67B18BB1B5C00ED6218 /* FSVenue.m */; };
 		81CFF67F18BB1B9900ED6218 /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF67E18BB1B9900ED6218 /* FSConverter.m */; };
-		81CFF68218BB1BCC00ED6218 /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68118BB1BCC00ED6218 /* FSAppDelegate.m */; };
 		81CFF68518BB1C0E00ED6218 /* NearbyVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68418BB1C0E00ED6218 /* NearbyVenuesViewController.m */; };
 		81CFF68818BB1C4100ED6218 /* CheckinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68718BB1C4100ED6218 /* CheckinViewController.m */; };
 		81CFF68B18BB1C6400ED6218 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68A18BB1C6400ED6218 /* SettingsViewController.m */; };
@@ -9098,8 +9097,6 @@
 		81CFF67B18BB1B5C00ED6218 /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
 		81CFF67D18BB1B9900ED6218 /* FSConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConverter.h; sourceTree = "<group>"; };
 		81CFF67E18BB1B9900ED6218 /* FSConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSConverter.m; sourceTree = "<group>"; };
-		81CFF68018BB1BCC00ED6218 /* FSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAppDelegate.h; sourceTree = "<group>"; };
-		81CFF68118BB1BCC00ED6218 /* FSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
 		81CFF68318BB1C0E00ED6218 /* NearbyVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyVenuesViewController.h; sourceTree = "<group>"; };
 		81CFF68418BB1C0E00ED6218 /* NearbyVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyVenuesViewController.m; sourceTree = "<group>"; };
 		81CFF68618BB1C4100ED6218 /* CheckinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckinViewController.h; sourceTree = "<group>"; };
@@ -18093,8 +18090,6 @@
 		81C723E418ABCA7800C438A8 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				81CFF68018BB1BCC00ED6218 /* FSAppDelegate.h */,
-				81CFF68118BB1BCC00ED6218 /* FSAppDelegate.m */,
 				81CA00831800FD8300B6F605 /* AppDelegate.h */,
 				81CA00841800FD8300B6F605 /* AppDelegate.m */,
 			);
@@ -45553,7 +45548,6 @@
 				81C723E918ABCB1600C438A8 /* SWRevealViewController.m in Sources */,
 				81CFF68B18BB1C6400ED6218 /* SettingsViewController.m in Sources */,
 				81CFF68818BB1C4100ED6218 /* CheckinViewController.m in Sources */,
-				81CFF68218BB1BCC00ED6218 /* FSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
