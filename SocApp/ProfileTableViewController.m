@@ -81,7 +81,7 @@
 
 
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+/*- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
@@ -93,7 +93,7 @@
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
     return 0;
-}
+}*/
 
 /*-(void)LoadTestData2
 {
