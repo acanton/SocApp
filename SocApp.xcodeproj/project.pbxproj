@@ -14,7 +14,6 @@
 		81091E6E1822E322007D5225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81091E6D1822E321007D5225 /* Images.xcassets */; };
 		81493B2418007F7C00A31655 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81493B2318007F7C00A31655 /* Default-568h@2x.png */; };
 		815EB91C189AC1F700AFC3A9 /* Splash Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 815EB91B189AC1F700AFC3A9 /* Splash Screen.jpg */; };
-		81601CB31821ACFA00729FD9 /* MessageComposerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */; };
 		81601CB71821AD2D00729FD9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB51821AD2D00729FD9 /* MessageUI.framework */; };
 		81601CB81821AD2D00729FD9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB61821AD2D00729FD9 /* Twitter.framework */; };
 		81601CBA1821AD5E00729FD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB91821AD5E00729FD9 /* AudioToolbox.framework */; };
@@ -49,9 +48,7 @@
 		81CA00951800FD8400B6F605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA00841800FD8300B6F605 /* AppDelegate.m */; };
 		81CA00971800FD8400B6F605 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CA00871800FD8300B6F605 /* MainStoryboard.storyboard */; };
 		81CA00981800FD8400B6F605 /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA008A1800FD8300B6F605 /* LoginTableViewController.m */; };
-		81CA009B1800FD8400B6F605 /* TrendViewController-Master.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA008F1800FD8400B6F605 /* TrendViewController-Master.m */; };
 		81CA009E1800FD8400B6F605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA00941800FD8400B6F605 /* ViewController.m */; };
-		81CA00A11801062800B6F605 /* TrendViewController-Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA00A01801062800B6F605 /* TrendViewController-Detail.m */; };
 		81CF87BC183C4E4400017F73 /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF87BB183C4E4400017F73 /* RootController.m */; };
 		81CF87BF183D8D1F00017F73 /* SelectImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF87BE183D8D1F00017F73 /* SelectImageViewController.m */; };
 		81CFF60418BAD5C100ED6218 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 81CFF5F518BAD5C100ED6218 /* CHANGELOG.md */; };
@@ -9003,8 +9000,6 @@
 		81091E6D1822E321007D5225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81493B2318007F7C00A31655 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		815EB91B189AC1F700AFC3A9 /* Splash Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Splash Screen.jpg"; sourceTree = SOURCE_ROOT; };
-		81601CB01821ACFA00729FD9 /* MessageComposerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageComposerViewController.h; sourceTree = "<group>"; };
-		81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageComposerViewController.m; sourceTree = "<group>"; };
 		81601CB51821AD2D00729FD9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		81601CB61821AD2D00729FD9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		81601CB91821AD5E00729FD9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -9049,12 +9044,8 @@
 		81CA00881800FD8300B6F605 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		81CA00891800FD8300B6F605 /* LoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTableViewController.h; sourceTree = "<group>"; };
 		81CA008A1800FD8300B6F605 /* LoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
-		81CA008E1800FD8400B6F605 /* TrendViewController-Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrendViewController-Master.h"; sourceTree = "<group>"; };
-		81CA008F1800FD8400B6F605 /* TrendViewController-Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TrendViewController-Master.m"; sourceTree = "<group>"; };
 		81CA00931800FD8400B6F605 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		81CA00941800FD8400B6F605 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		81CA009F1801062800B6F605 /* TrendViewController-Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrendViewController-Detail.h"; sourceTree = "<group>"; };
-		81CA00A01801062800B6F605 /* TrendViewController-Detail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TrendViewController-Detail.m"; sourceTree = "<group>"; };
 		81CF87BA183C4E4400017F73 /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
 		81CF87BB183C4E4400017F73 /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
 		81CF87BD183D8D1F00017F73 /* SelectImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectImageViewController.h; sourceTree = "<group>"; };
@@ -18083,12 +18074,6 @@
 		81A9359C18AC485F0077BBD4 /* Upload classes  */ = {
 			isa = PBXGroup;
 			children = (
-				81CA008E1800FD8400B6F605 /* TrendViewController-Master.h */,
-				81CA008F1800FD8400B6F605 /* TrendViewController-Master.m */,
-				81CA009F1801062800B6F605 /* TrendViewController-Detail.h */,
-				81CA00A01801062800B6F605 /* TrendViewController-Detail.m */,
-				81601CB01821ACFA00729FD9 /* MessageComposerViewController.h */,
-				81601CB11821ACFA00729FD9 /* MessageComposerViewController.m */,
 				81CF87BD183D8D1F00017F73 /* SelectImageViewController.h */,
 				81CF87BE183D8D1F00017F73 /* SelectImageViewController.m */,
 			);
@@ -45537,9 +45522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81CFF60818BAD5C100ED6218 /* FSOperation.m in Sources */,
-				81CA009B1800FD8400B6F605 /* TrendViewController-Master.m in Sources */,
 				81CA00981800FD8400B6F605 /* LoginTableViewController.m in Sources */,
-				81601CB31821ACFA00729FD9 /* MessageComposerViewController.m in Sources */,
 				81CFF67C18BB1B5C00ED6218 /* FSVenue.m in Sources */,
 				81CF87BC183C4E4400017F73 /* RootController.m in Sources */,
 				9ADC84E018EA4B840044C6A0 /* VenueObject.m in Sources */,
@@ -45551,7 +45534,6 @@
 				81CA009E1800FD8400B6F605 /* ViewController.m in Sources */,
 				81CFF68518BB1C0E00ED6218 /* NearbyVenuesViewController.m in Sources */,
 				81CF87BF183D8D1F00017F73 /* SelectImageViewController.m in Sources */,
-				81CA00A11801062800B6F605 /* TrendViewController-Detail.m in Sources */,
 				81CFF68E18BB1C9600ED6218 /* SearchViewController.m in Sources */,
 				818FCBFB18AB1B1C006DF0AA /* UserDetailsViewController.m in Sources */,
 				817D2E8F1804CDC000621B44 /* main.m in Sources */,

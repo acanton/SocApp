@@ -29,6 +29,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UITapGestureRecognizer *doubleTapGestureRecognizer = [[UITapGestureRecognizer alloc]
+                            initWithTarget: self action:@selector(handleDoubleTap:)];
+    doubleTapGestureRecognizer.numberOfTapsRequired = 2;
+    //tapGestureRecognizer.delegate = self;
+    
+    [self addGestureRecognizer:doubleTapGestureRecognizer];
+    
+    UITapGestureRecognizer*singleTapGestureRecognizer = [[UITapGestureRecognizer alloc]
+                                                         initWithTarget:self action:@selector(handleSingleTap:)];
+    singleTapGestureRecognizer.numberOfTapsRequired = 1;
+    
+    [singleTapGestureRecognizer requireGestureRecognizerToFail:doubleTapGestureRecognizer];
+    
+    //tapGestureRecognizer.delegate = self;
+    
+    [self addGestureRecognizer:singleTapGestureRecognizer];
+    
+    
+    
+    
 }
 
 - (IBAction)checkin:(id)sender {

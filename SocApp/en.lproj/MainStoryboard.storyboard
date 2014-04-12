@@ -826,7 +826,7 @@
             </objects>
             <point key="canvasLocation" x="1124" y="897"/>
         </scene>
-        <!--Checkin View Controller - Check In-->
+        <!--Checkin View Controller - Check-in-->
         <scene sceneID="jeY-cl-UAd">
             <objects>
                 <viewController id="edg-2d-EHH" customClass="CheckinViewController" sceneMemberID="viewController">
@@ -835,33 +835,38 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="S3r-kJ-DgE">
-                                <rect key="frame" x="129" y="247" width="63" height="30"/>
+                                <rect key="frame" x="129" y="485" width="63" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Check-In">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="checkin:" destination="edg-2d-EHH" eventType="touchUpInside" id="ayH-Lu-jgw"/>
+                                    <action selector="checkin:" destination="edg-2d-EHH" eventType="touchUpInside" id="gv5-d8-nYh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Eft-qC-FL5">
-                                <rect key="frame" x="139" y="218" width="42" height="21"/>
+                                <rect key="frame" x="139" y="456" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testimage.png" id="vw7-iX-spq">
-                                <rect key="frame" x="96" y="285" width="129" height="174"/>
+                                <rect key="frame" x="45" y="142" width="230" height="306"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lzj-p9-uev" appends="YES" id="sbk-VB-jbK"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Check-In" image="location-32.png" id="icY-yJ-W2z"/>
-                    <navigationItem key="navigationItem" title="Check In" id="leq-Do-bix"/>
-                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationItem key="navigationItem" title="Check-in" id="VIC-e1-ioP"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rEQ-Bh-IwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="lzj-p9-uev"/>
             </objects>
             <point key="canvasLocation" x="3760" y="2770"/>
         </scene>

@@ -11,6 +11,9 @@
 @class FSVenue;
 @interface CheckinViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITapGestureRecognizer *DoubleTap;
+@property (weak, nonatomic) IBOutlet UITapGestureRecognizer *SingleTap;
+
 @property (strong, nonatomic) FSVenue *venue;
 
 @end
