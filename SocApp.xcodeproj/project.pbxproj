@@ -40,6 +40,7 @@
 		818FCC0518AB23A4006DF0AA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCC0418AB23A4006DF0AA /* StoreKit.framework */; };
 		818FCC0718AB23C0006DF0AA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCC0618AB23C0006DF0AA /* CFNetwork.framework */; };
 		818FCC0918AB23E2006DF0AA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCC0818AB23E2006DF0AA /* MobileCoreServices.framework */; };
+		81A1588018FC6ED500E9FA7D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A1587F18FC6ED500E9FA7D /* MainViewController.m */; };
 		81A9359618AC44690077BBD4 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A9359518AC44690077BBD4 /* NewPostViewController.m */; };
 		81A9359918AC45DD0077BBD4 /* BlogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A9359818AC45DD0077BBD4 /* BlogTableViewController.m */; };
 		81BDDD5218F3B50C002EA413 /* acf7ef943fdeb3cbfed8dd0d8f584731.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BDDD5118F3B50C002EA413 /* acf7ef943fdeb3cbfed8dd0d8f584731.png */; };
@@ -9031,6 +9032,8 @@
 		818FCC0418AB23A4006DF0AA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		818FCC0618AB23C0006DF0AA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		818FCC0818AB23E2006DF0AA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		81A1587E18FC6ED500E9FA7D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		81A1587F18FC6ED500E9FA7D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		81A9359418AC44690077BBD4 /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
 		81A9359518AC44690077BBD4 /* NewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
 		81A9359718AC45DD0077BBD4 /* BlogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogTableViewController.h; sourceTree = "<group>"; };
@@ -18105,6 +18108,8 @@
 		81C723E618ABCAC800C438A8 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				81A1587E18FC6ED500E9FA7D /* MainViewController.h */,
+				81A1587F18FC6ED500E9FA7D /* MainViewController.m */,
 				81C723E718ABCB1600C438A8 /* SWRevealViewController.h */,
 				81C723E818ABCB1600C438A8 /* SWRevealViewController.m */,
 			);
@@ -45538,6 +45543,7 @@
 				818FCBFB18AB1B1C006DF0AA /* UserDetailsViewController.m in Sources */,
 				817D2E8F1804CDC000621B44 /* main.m in Sources */,
 				81CFF60718BAD5C100ED6218 /* FSOAuthNoAppStore.m in Sources */,
+				81A1588018FC6ED500E9FA7D /* MainViewController.m in Sources */,
 				81CFF60618BAD5C100ED6218 /* FSKeychain.m in Sources */,
 				81A9359918AC45DD0077BBD4 /* BlogTableViewController.m in Sources */,
 				81CFF60918BAD5C100ED6218 /* FSWebLogin.m in Sources */,
