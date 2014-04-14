@@ -34,7 +34,7 @@
     doubleTapGestureRecognizer.numberOfTapsRequired = 2;
     //tapGestureRecognizer.delegate = self;
     
-    [self addGestureRecognizer:doubleTapGestureRecognizer];
+    [self.view addGestureRecognizer:doubleTapGestureRecognizer];
     
     UITapGestureRecognizer*singleTapGestureRecognizer = [[UITapGestureRecognizer alloc]
                                                          initWithTarget:self action:@selector(handleSingleTap:)];
@@ -44,7 +44,7 @@
     
     //tapGestureRecognizer.delegate = self;
     
-    [self addGestureRecognizer:singleTapGestureRecognizer];
+    [self.view addGestureRecognizer:singleTapGestureRecognizer];
     
     
     

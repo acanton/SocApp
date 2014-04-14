@@ -13,7 +13,7 @@
 		8103465C18F70C9F001DF4A2 /* logo proposal-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103465A18F70C9F001DF4A2 /* logo proposal-80.png */; };
 		81091E6E1822E322007D5225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81091E6D1822E321007D5225 /* Images.xcassets */; };
 		81493B2418007F7C00A31655 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81493B2318007F7C00A31655 /* Default-568h@2x.png */; };
-		815EB91C189AC1F700AFC3A9 /* Splash Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 815EB91B189AC1F700AFC3A9 /* Splash Screen.jpg */; };
+		815EB91C189AC1F700AFC3A9 /* Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 815EB91B189AC1F700AFC3A9 /* Splash Screen.png */; };
 		81601CB71821AD2D00729FD9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB51821AD2D00729FD9 /* MessageUI.framework */; };
 		81601CB81821AD2D00729FD9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB61821AD2D00729FD9 /* Twitter.framework */; };
 		81601CBA1821AD5E00729FD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB91821AD5E00729FD9 /* AudioToolbox.framework */; };
@@ -8999,7 +8999,7 @@
 		8103465A18F70C9F001DF4A2 /* logo proposal-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo proposal-80.png"; path = "App icons/logo proposal-80.png"; sourceTree = SOURCE_ROOT; };
 		81091E6D1822E321007D5225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81493B2318007F7C00A31655 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		815EB91B189AC1F700AFC3A9 /* Splash Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Splash Screen.jpg"; sourceTree = SOURCE_ROOT; };
+		815EB91B189AC1F700AFC3A9 /* Splash Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash Screen.png"; sourceTree = SOURCE_ROOT; };
 		81601CB51821AD2D00729FD9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		81601CB61821AD2D00729FD9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		81601CB91821AD5E00729FD9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -18044,7 +18044,7 @@
 				818FCBEF18AB19A0006DF0AA /* login-button-small-pressed@2x.png */,
 				818FCBF018AB19A0006DF0AA /* login-button-small.png */,
 				818FCBF118AB19A0006DF0AA /* login-button-small@2x.png */,
-				815EB91B189AC1F700AFC3A9 /* Splash Screen.jpg */,
+				815EB91B189AC1F700AFC3A9 /* Splash Screen.png */,
 			);
 			name = "Images and buttons";
 			sourceTree = "<group>";
@@ -42268,7 +42268,7 @@
 				81ED8E1518EDC46300F43A18 /* radar_plot-50.png in Resources */,
 				81EDA73E18EDC46400F43A18 /* shoes-512.png in Resources */,
 				81EDAB9818EDC46400F43A18 /* shared_filled-100.png in Resources */,
-				815EB91C189AC1F700AFC3A9 /* Splash Screen.jpg in Resources */,
+				815EB91C189AC1F700AFC3A9 /* Splash Screen.png in Resources */,
 				81ED8B9418EDC46300F43A18 /* up_right-32.png in Resources */,
 				81ED9CDF18EDC46400F43A18 /* publisher-75.png in Resources */,
 				81ED9EF718EDC46400F43A18 /* cymbals-75.png in Resources */,
