@@ -84,6 +84,9 @@
     
     // Override point for customization after application launch.
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LoginViewController alloc] init]];
+    
+    //initial view controller is set to multiple views under the same class causig application to crash before launch.
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
