@@ -308,7 +308,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="edg-2d-EHH" kind="push" id="DLS-dC-oSE"/>
+                                    <segue destination="gKh-dK-scv" kind="push" id="DLS-dC-oSE"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -321,7 +321,7 @@
                     <navigationItem key="navigationItem" title="Nearby" id="PQ5-Y2-0tz">
                         <barButtonItem key="leftBarButtonItem" systemItem="search" id="1hH-yu-l9U">
                             <connections>
-                                <segue destination="7yJ-ZF-kjX" kind="push" id="AWB-Hq-pVJ"/>
+                                <segue destination="9RQ-xL-tsC" kind="push" id="AWB-Hq-pVJ"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="ZUH-5k-wMj"/>
@@ -344,7 +344,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jhC-L9-LOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4796" y="3447"/>
+            <point key="canvasLocation" x="5322" y="3447"/>
         </scene>
         <!--Login Table View Controller-->
         <scene sceneID="6hT-mG-ba7">
@@ -365,7 +365,7 @@
                                     <color key="titleColor" red="0.26096566389999998" green="0.71795875259999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TQh-NE-Sr9" kind="modal" id="dG5-NX-D76"/>
+                                    <segue destination="TQh-NE-Sr9" kind="push" id="dG5-NX-D76"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0YC-so-fL2">
@@ -376,7 +376,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8kb-Om-Ok3" kind="modal" id="GOR-0v-ACp"/>
+                                    <segue destination="8kb-Om-Ok3" kind="push" id="GOR-0v-ACp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oHV-YD-6K9">
@@ -415,7 +415,6 @@
         <!--Navigation Controller-->
         <scene sceneID="3vt-m4-FUq">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zmo-tz-ite" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="Fg3-PS-F33" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="ld2-qL-phh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TJJ-q5-SD7">
@@ -425,6 +424,7 @@
                         <segue destination="UNe-3r-KCD" kind="push" id="dws-at-Xeh"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zmo-tz-ite" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2349" y="279"/>
         </scene>
@@ -847,13 +847,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Check-In" image="location-32.png" id="icY-yJ-W2z"/>
                     <navigationItem key="navigationItem" title="Check-in" id="VIC-e1-ioP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rEQ-Bh-IwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="lzj-p9-uev"/>
             </objects>
-            <point key="canvasLocation" x="4796" y="2682"/>
+            <point key="canvasLocation" x="5322" y="2682"/>
         </scene>
         <!--Profile Table View Controller - Profile-->
         <scene sceneID="DwH-o9-si0">
@@ -1018,6 +1017,45 @@
             </objects>
             <point key="canvasLocation" x="4192" y="146"/>
         </scene>
+        <!--Navigation Controller - Check-In-->
+        <scene sceneID="2C9-W9-ozG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gKh-dK-scv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Check-In" image="location-32.png" id="icY-yJ-W2z"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="JzE-zK-lhf"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MdZ-wh-HCa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="edg-2d-EHH" kind="relationship" relationship="rootViewController" id="8FY-dt-DYP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVe-G8-2XP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4796" y="2682"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AX9-Ow-Bh0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9RQ-xL-tsC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Tfr-8n-6PL"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5yJ-iF-Gd5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7yJ-ZF-kjX" kind="relationship" relationship="rootViewController" id="ds9-Y1-9L9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oe4-bo-ad0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4796" y="3447"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Splash Screen.png" width="320" height="480"/>
@@ -1039,6 +1077,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="G7F-Uf-ta7"/>
+        <segue reference="kk2-TU-i1p"/>
     </inferredMetricsTieBreakers>
 </document>
