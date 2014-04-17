@@ -15,11 +15,11 @@
 		81493B2418007F7C00A31655 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81493B2318007F7C00A31655 /* Default-568h@2x.png */; };
 		815EB91C189AC1F700AFC3A9 /* Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 815EB91B189AC1F700AFC3A9 /* Splash Screen.png */; };
 		81601CB71821AD2D00729FD9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB51821AD2D00729FD9 /* MessageUI.framework */; };
-		81601CB81821AD2D00729FD9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB61821AD2D00729FD9 /* Twitter.framework */; };
 		81601CBA1821AD5E00729FD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB91821AD5E00729FD9 /* AudioToolbox.framework */; };
 		81601CBB1821E7B900729FD9 /* SocApp.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 81601CBD1821E7B900729FD9 /* SocApp.entitlements */; };
 		8160ABAB18F331C300205F4B /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8160ABAA18F331C300205F4B /* ProfileTableViewController.m */; };
 		8165BD07182AE7E800C44C40 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8165BD06182AE7E800C44C40 /* CoreLocation.framework */; };
+		817B57D9190014070057B456 /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817B57D8190014070057B456 /* PixateFreestyle.framework */; };
 		817D2E8F1804CDC000621B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D2E8B1804CDC000621B44 /* main.m */; };
 		817D2E911804CDC000621B44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817D2E8E1804CDC000621B44 /* InfoPlist.strings */; };
 		817D30D91804CF2A00621B44 /* app-bits_free_tabbar_icons in Resources */ = {isa = PBXBuildFile; fileRef = 817D30D81804CF2A00621B44 /* app-bits_free_tabbar_icons */; };
@@ -9008,6 +9008,7 @@
 		8160ABA918F331C300205F4B /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
 		8160ABAA18F331C300205F4B /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
 		8165BD06182AE7E800C44C40 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		817B57D8190014070057B456 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = PixateFreestyle/PixateFreestyle.framework; sourceTree = "<group>"; };
 		817D2E8B1804CDC000621B44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SocApp/main.m; sourceTree = SOURCE_ROOT; };
 		817D2E8C1804CDC000621B44 /* SocApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SocApp-Info.plist"; path = "SocApp/SocApp-Info.plist"; sourceTree = SOURCE_ROOT; };
 		817D2E8D1804CDC000621B44 /* SocApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SocApp-Prefix.pch"; path = "SocApp/SocApp-Prefix.pch"; sourceTree = SOURCE_ROOT; };
@@ -18013,6 +18014,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817B57D9190014070057B456 /* PixateFreestyle.framework in Frameworks */,
 				817D894E18F46A2600F5A86C /* libz.dylib in Frameworks */,
 				81CFF67918BB1A5E00ED6218 /* MapKit.framework in Frameworks */,
 				818FCC0918AB23E2006DF0AA /* MobileCoreServices.framework in Frameworks */,
@@ -18022,10 +18024,9 @@
 				818FCC0118AB2325006DF0AA /* SystemConfiguration.framework in Frameworks */,
 				818FCBFD18AB1D94006DF0AA /* QuartzCore.framework in Frameworks */,
 				818FCBC818AB093F006DF0AA /* FacebookSDK.framework in Frameworks */,
-				818FCBC618AB08C3006DF0AA /* Social.framework in Frameworks */,
 				8165BD07182AE7E800C44C40 /* CoreLocation.framework in Frameworks */,
+				818FCBC618AB08C3006DF0AA /* Social.framework in Frameworks */,
 				81601CB71821AD2D00729FD9 /* MessageUI.framework in Frameworks */,
-				81601CB81821AD2D00729FD9 /* Twitter.framework in Frameworks */,
 				EB439188157818DE00DE8E91 /* UIKit.framework in Frameworks */,
 				EB43918A157818DE00DE8E91 /* Foundation.framework in Frameworks */,
 				EB43918C157818DE00DE8E91 /* CoreGraphics.framework in Frameworks */,
@@ -36484,6 +36485,7 @@
 		EB439186157818DE00DE8E91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				817B57D8190014070057B456 /* PixateFreestyle.framework */,
 				817D894D18F46A2600F5A86C /* libz.dylib */,
 				81CFF67818BB1A5E00ED6218 /* MapKit.framework */,
 				818FCC0818AB23E2006DF0AA /* MobileCoreServices.framework */,
@@ -45647,7 +45649,10 @@
 				CODE_SIGN_ENTITLEMENTS = SocApp/SocApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/\" ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/\"",
+					"$(PROJECT_DIR)/PixateFreestyle",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocApp/SocApp-Prefix.pch";
 				INFOPLIST_FILE = "SocApp/SocApp-Info.plist";
@@ -45666,7 +45671,10 @@
 				CODE_SIGN_ENTITLEMENTS = SocApp/SocApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/\" ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/\"",
+					"$(PROJECT_DIR)/PixateFreestyle",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocApp/SocApp-Prefix.pch";
 				INFOPLIST_FILE = "SocApp/SocApp-Info.plist";
