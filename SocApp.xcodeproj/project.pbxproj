@@ -9008,7 +9008,6 @@
 		8160ABA918F331C300205F4B /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
 		8160ABAA18F331C300205F4B /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
 		8165BD06182AE7E800C44C40 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		817B57D8190014070057B456 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = PixateFreestyle/PixateFreestyle.framework; sourceTree = "<group>"; };
 		817B57DC1900349B0057B456 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = PixateFreestyle/PixateFreestyle.framework; sourceTree = "<group>"; };
 		817B57DE190034AD0057B456 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		817D2E8B1804CDC000621B44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SocApp/main.m; sourceTree = SOURCE_ROOT; };
@@ -36488,7 +36487,6 @@
 			isa = PBXGroup;
 			children = (
 				817B57DE190034AD0057B456 /* Parse.framework */,
-				817B57D8190014070057B456 /* PixateFreestyle.framework */,
 				817D894D18F46A2600F5A86C /* libz.dylib */,
 				817B57DC1900349B0057B456 /* PixateFreestyle.framework */,
 				81CFF67818BB1A5E00ED6218 /* MapKit.framework */,
