@@ -20,6 +20,7 @@
 		8160ABAB18F331C300205F4B /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8160ABAA18F331C300205F4B /* ProfileTableViewController.m */; };
 		8165BD07182AE7E800C44C40 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8165BD06182AE7E800C44C40 /* CoreLocation.framework */; };
 		817B57D9190014070057B456 /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817B57D8190014070057B456 /* PixateFreestyle.framework */; };
+		817B57DA19002CCE0057B456 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCBFE18AB21FA006DF0AA /* Parse.framework */; };
 		817D2E8F1804CDC000621B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D2E8B1804CDC000621B44 /* main.m */; };
 		817D2E911804CDC000621B44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817D2E8E1804CDC000621B44 /* InfoPlist.strings */; };
 		817D30D91804CF2A00621B44 /* app-bits_free_tabbar_icons in Resources */ = {isa = PBXBuildFile; fileRef = 817D30D81804CF2A00621B44 /* app-bits_free_tabbar_icons */; };
@@ -34,7 +35,6 @@
 		818FCBFA18AB1B1C006DF0AA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818FCBF718AB1B1C006DF0AA /* LoginViewController.m */; };
 		818FCBFB18AB1B1C006DF0AA /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818FCBF918AB1B1C006DF0AA /* UserDetailsViewController.m */; };
 		818FCBFD18AB1D94006DF0AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCBFC18AB1D94006DF0AA /* QuartzCore.framework */; };
-		818FCBFF18AB21FA006DF0AA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCBFE18AB21FA006DF0AA /* Parse.framework */; };
 		818FCC0118AB2325006DF0AA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCC0018AB2325006DF0AA /* SystemConfiguration.framework */; };
 		818FCC0318AB237A006DF0AA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCC0218AB237A006DF0AA /* Security.framework */; };
 		818FCC0518AB23A4006DF0AA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818FCC0418AB23A4006DF0AA /* StoreKit.framework */; };
@@ -18014,6 +18014,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817B57DA19002CCE0057B456 /* Parse.framework in Frameworks */,
 				817B57D9190014070057B456 /* PixateFreestyle.framework in Frameworks */,
 				817D894E18F46A2600F5A86C /* libz.dylib in Frameworks */,
 				81CFF67918BB1A5E00ED6218 /* MapKit.framework in Frameworks */,
@@ -18030,7 +18031,6 @@
 				EB439188157818DE00DE8E91 /* UIKit.framework in Frameworks */,
 				EB43918A157818DE00DE8E91 /* Foundation.framework in Frameworks */,
 				EB43918C157818DE00DE8E91 /* CoreGraphics.framework in Frameworks */,
-				818FCBFF18AB21FA006DF0AA /* Parse.framework in Frameworks */,
 				81601CBA1821AD5E00729FD9 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45652,6 +45652,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)/\"",
 					"$(PROJECT_DIR)/PixateFreestyle",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocApp/SocApp-Prefix.pch";
@@ -45674,6 +45675,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SRCROOT)/\"",
 					"$(PROJECT_DIR)/PixateFreestyle",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocApp/SocApp-Prefix.pch";

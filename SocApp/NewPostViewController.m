@@ -7,7 +7,7 @@
 //
 
 #import "NewPostViewController.h"
-#import "Parse/Parse.h"
+#import <Parse/Parse.h>
 
 @implementation NewPostViewController
 
