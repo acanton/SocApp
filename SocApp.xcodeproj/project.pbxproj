@@ -13,7 +13,6 @@
 		8103465C18F70C9F001DF4A2 /* logo proposal-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 8103465A18F70C9F001DF4A2 /* logo proposal-80.png */; };
 		81091E6E1822E322007D5225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81091E6D1822E321007D5225 /* Images.xcassets */; };
 		81493B2418007F7C00A31655 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81493B2318007F7C00A31655 /* Default-568h@2x.png */; };
-		815EB91C189AC1F700AFC3A9 /* Splash Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 815EB91B189AC1F700AFC3A9 /* Splash Screen.png */; };
 		81601CB71821AD2D00729FD9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB51821AD2D00729FD9 /* MessageUI.framework */; };
 		81601CBA1821AD5E00729FD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81601CB91821AD5E00729FD9 /* AudioToolbox.framework */; };
 		81601CBB1821E7B900729FD9 /* SocApp.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 81601CBD1821E7B900729FD9 /* SocApp.entitlements */; };
@@ -21,6 +20,7 @@
 		8165BD07182AE7E800C44C40 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8165BD06182AE7E800C44C40 /* CoreLocation.framework */; };
 		817B57DD1900349B0057B456 /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817B57DC1900349B0057B456 /* PixateFreestyle.framework */; };
 		817B57DF190034AE0057B456 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817B57DE190034AD0057B456 /* Parse.framework */; };
+		817B57E119022E1C0057B456 /* Splash Screen copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 817B57E019022E1C0057B456 /* Splash Screen copy.jpg */; };
 		817D2E8F1804CDC000621B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D2E8B1804CDC000621B44 /* main.m */; };
 		817D2E911804CDC000621B44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817D2E8E1804CDC000621B44 /* InfoPlist.strings */; };
 		817D30D91804CF2A00621B44 /* app-bits_free_tabbar_icons in Resources */ = {isa = PBXBuildFile; fileRef = 817D30D81804CF2A00621B44 /* app-bits_free_tabbar_icons */; };
@@ -9000,7 +9000,6 @@
 		8103465A18F70C9F001DF4A2 /* logo proposal-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo proposal-80.png"; path = "App icons/logo proposal-80.png"; sourceTree = SOURCE_ROOT; };
 		81091E6D1822E321007D5225 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		81493B2318007F7C00A31655 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		815EB91B189AC1F700AFC3A9 /* Splash Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash Screen.png"; sourceTree = SOURCE_ROOT; };
 		81601CB51821AD2D00729FD9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		81601CB61821AD2D00729FD9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		81601CB91821AD5E00729FD9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -9010,6 +9009,7 @@
 		8165BD06182AE7E800C44C40 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		817B57DC1900349B0057B456 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PixateFreestyle.framework; sourceTree = "<group>"; };
 		817B57DE190034AD0057B456 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		817B57E019022E1C0057B456 /* Splash Screen copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Splash Screen copy.jpg"; sourceTree = SOURCE_ROOT; };
 		817D2E8B1804CDC000621B44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SocApp/main.m; sourceTree = SOURCE_ROOT; };
 		817D2E8C1804CDC000621B44 /* SocApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SocApp-Info.plist"; path = "SocApp/SocApp-Info.plist"; sourceTree = SOURCE_ROOT; };
 		817D2E8D1804CDC000621B44 /* SocApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SocApp-Prefix.pch"; path = "SocApp/SocApp-Prefix.pch"; sourceTree = SOURCE_ROOT; };
@@ -18049,7 +18049,7 @@
 				818FCBEF18AB19A0006DF0AA /* login-button-small-pressed@2x.png */,
 				818FCBF018AB19A0006DF0AA /* login-button-small.png */,
 				818FCBF118AB19A0006DF0AA /* login-button-small@2x.png */,
-				815EB91B189AC1F700AFC3A9 /* Splash Screen.png */,
+				817B57E019022E1C0057B456 /* Splash Screen copy.jpg */,
 			);
 			name = "Images and buttons";
 			sourceTree = "<group>";
@@ -42277,7 +42277,6 @@
 				81ED8E1518EDC46300F43A18 /* radar_plot-50.png in Resources */,
 				81EDA73E18EDC46400F43A18 /* shoes-512.png in Resources */,
 				81EDAB9818EDC46400F43A18 /* shared_filled-100.png in Resources */,
-				815EB91C189AC1F700AFC3A9 /* Splash Screen.png in Resources */,
 				81ED8B9418EDC46300F43A18 /* up_right-32.png in Resources */,
 				81ED9CDF18EDC46400F43A18 /* publisher-75.png in Resources */,
 				81ED9EF718EDC46400F43A18 /* cymbals-75.png in Resources */,
@@ -43416,6 +43415,7 @@
 				81ED951A18EDC46400F43A18 /* whole_hand-25.png in Resources */,
 				81EDA03718EDC46400F43A18 /* remove_image-75.png in Resources */,
 				81ED9D1B18EDC46400F43A18 /* tails-256.png in Resources */,
+				817B57E119022E1C0057B456 /* Splash Screen copy.jpg in Resources */,
 				81ED8EA618EDC46300F43A18 /* shoe_woman-512.png in Resources */,
 				81EDA49B18EDC46400F43A18 /* jump_rope-256.png in Resources */,
 				81EDA60018EDC46400F43A18 /* timer-100.png in Resources */,

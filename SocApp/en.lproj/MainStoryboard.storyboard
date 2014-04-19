@@ -352,7 +352,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash Screen.png" id="vWd-S1-Ddx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash Screen copy.jpg" id="vWd-S1-Ddx">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -1094,7 +1094,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Splash Screen.png" width="320" height="480"/>
+        <image name="Splash Screen copy.jpg" width="320" height="480"/>
         <image name="administrator-32.png" width="32" height="32"/>
         <image name="app icon-icon-29.png" width="29" height="29"/>
         <image name="conference-32.png" width="32" height="32"/>
