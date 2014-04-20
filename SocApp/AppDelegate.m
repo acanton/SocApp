@@ -14,7 +14,7 @@
 
 @synthesize window = _window;
 
-- (void)customizeAppearance
+/*- (void)customizeAppearance
 {
     // Create resizable images
     UIImage *gradientImage44 = [[UIImage imageNamed:@"gradient_textured_44"]
@@ -41,12 +41,12 @@
       NSFontAttributeName,
       nil]];
     [[UINavigationBar appearance] setShadowImage:[UIImage imageNamed:@"navBarShadow"]];
-}
+}*/
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    [self customizeAppearance];
+   // [self customizeAppearance];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     
@@ -73,7 +73,7 @@
     
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
-            // Hooray! Let them use the app now.
+            
         } else {
             //NSString *errorString = [error userInfo][@"error"];
             [PFUser logInWithUsername:@"John Doe" password:@"password"];
@@ -87,7 +87,7 @@
     
     //initial view controller is set to multiple views under the same class causig application to crash before launch.
     
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor clearColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
