@@ -95,6 +95,7 @@
 		81CFF68818BB1C4100ED6218 /* CheckinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68718BB1C4100ED6218 /* CheckinViewController.m */; };
 		81CFF68B18BB1C6400ED6218 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68A18BB1C6400ED6218 /* SettingsViewController.m */; };
 		81CFF68E18BB1C9600ED6218 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CFF68D18BB1C9600ED6218 /* SearchViewController.m */; };
+		81D319541905701700950F91 /* DoubleTapCheckIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D319531905701700950F91 /* DoubleTapCheckIn.m */; };
 		81E7DCFA18B6FCF8003CE00A /* testimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81E7DCF918B6FCF8003CE00A /* testimage@2x.png */; };
 		81ED8A5618EDC46300F43A18 /* !free_license.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 81ED630C18EDC45400F43A18 /* !free_license.pdf */; };
 		81ED8A5718EDC46300F43A18 /* !paid_license.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 81ED630D18EDC45400F43A18 /* !paid_license.pdf */; };
@@ -9109,6 +9110,8 @@
 		81CFF68A18BB1C6400ED6218 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		81CFF68C18BB1C9600ED6218 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		81CFF68D18BB1C9600ED6218 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		81D319521905701700950F91 /* DoubleTapCheckIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTapCheckIn.h; sourceTree = "<group>"; };
+		81D319531905701700950F91 /* DoubleTapCheckIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTapCheckIn.m; sourceTree = "<group>"; };
 		81E7DCF918B6FCF8003CE00A /* testimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "testimage@2x.png"; sourceTree = SOURCE_ROOT; };
 		81ED630C18EDC45400F43A18 /* !free_license.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "!free_license.pdf"; sourceTree = "<group>"; };
 		81ED630D18EDC45400F43A18 /* !paid_license.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "!paid_license.pdf"; sourceTree = "<group>"; };
@@ -18215,6 +18218,8 @@
 				81CFF68418BB1C0E00ED6218 /* NearbyVenuesViewController.m */,
 				81CFF68618BB1C4100ED6218 /* CheckinViewController.h */,
 				81CFF68718BB1C4100ED6218 /* CheckinViewController.m */,
+				81D319521905701700950F91 /* DoubleTapCheckIn.h */,
+				81D319531905701700950F91 /* DoubleTapCheckIn.m */,
 				81CFF68918BB1C6400ED6218 /* SettingsViewController.h */,
 				81CFF68A18BB1C6400ED6218 /* SettingsViewController.m */,
 				81CFF68C18BB1C9600ED6218 /* SearchViewController.h */,
@@ -45549,6 +45554,7 @@
 				81CFF60718BAD5C100ED6218 /* FSOAuthNoAppStore.m in Sources */,
 				81A1588018FC6ED500E9FA7D /* MainViewController.m in Sources */,
 				81CFF60618BAD5C100ED6218 /* FSKeychain.m in Sources */,
+				81D319541905701700950F91 /* DoubleTapCheckIn.m in Sources */,
 				81A9359918AC45DD0077BBD4 /* BlogTableViewController.m in Sources */,
 				81CFF60918BAD5C100ED6218 /* FSWebLogin.m in Sources */,
 				81CA00951800FD8400B6F605 /* AppDelegate.m in Sources */,

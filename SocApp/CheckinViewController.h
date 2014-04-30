@@ -16,4 +16,7 @@
 
 @property (strong, nonatomic) FSVenue *venue;
 
+-(void)handleDoubleTap:(UITapGestureRecognizer *)gestureRecognizer;
+
+
 @end

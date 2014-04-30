@@ -50,6 +50,10 @@
     
     
 }
+-(void)handleDoubleTap:(UITapGestureRecognizer *)gestureRecognizer{
+    
+    //if(self.imageView)
+}
 
 - (IBAction)checkin:(id)sender {
     [Foursquare2 checkinAddAtVenue:self.venue.venueId
