@@ -37,6 +37,16 @@
     return self;
 }
 
+- (void)handleTap:(UITapGestureRecognizer *)sender {
+    
+    NSLog(@"single tap");
+}
+
+- (void)handleDoubleTap:(UITapGestureRecognizer *)sender {
+    
+    NSLog(@"doube tap");
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
