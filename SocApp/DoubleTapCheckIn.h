@@ -10,4 +10,8 @@
 
 @interface DoubleTapCheckIn : UIImageView
 
+- (void)handleTap:(UITapGestureRecognizer*)sender;
+
+- (void)handleDoubleTap:(UITapGestureRecognizer*)sender;
+
 @end

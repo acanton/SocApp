@@ -29,6 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    /*
     UITapGestureRecognizer *doubleTapGestureRecognizer = [[UITapGestureRecognizer alloc]
                             initWithTarget: self action:@selector(handleDoubleTap:)];
     doubleTapGestureRecognizer.numberOfTapsRequired = 2;
@@ -36,8 +37,8 @@
     
     [self.view addGestureRecognizer:doubleTapGestureRecognizer];
     
-    UITapGestureRecognizer*singleTapGestureRecognizer = [[UITapGestureRecognizer alloc]
-                                                         initWithTarget:self action:@selector(handleSingleTap:)];
+    UITapGestureRecognizer *singleTapGestureRecognizer = [[UITapGestureRecognizer alloc]
+                                                         initWithTarget: self action:@selector(handleSingleTap:)];
     singleTapGestureRecognizer.numberOfTapsRequired = 1;
     
     [singleTapGestureRecognizer requireGestureRecognizerToFail:doubleTapGestureRecognizer];
@@ -46,7 +47,7 @@
     
     [self.view addGestureRecognizer:singleTapGestureRecognizer];
     
-    
+    */
     
     
 }

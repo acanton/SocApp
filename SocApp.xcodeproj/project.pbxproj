@@ -8987,6 +8987,7 @@
 		81EDAD0D18EDC46500F43A18 /* wedding_rings-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ED8A5318EDC46300F43A18 /* wedding_rings-50.png */; };
 		81EDAD0E18EDC46500F43A18 /* wedding_rings-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ED8A5418EDC46300F43A18 /* wedding_rings-512.png */; };
 		81EDAD0F18EDC46500F43A18 /* wedding_rings-75.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ED8A5518EDC46300F43A18 /* wedding_rings-75.png */; };
+		9A9525791941648A00A8D417 /* RegisterViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9525781941648A00A8D417 /* RegisterViewControllerTableViewController.m */; };
 		9ADC84DD18EA36C10044C6A0 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC84DC18EA36C10044C6A0 /* HomeTableViewController.m */; };
 		9ADC84E018EA4B840044C6A0 /* VenueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC84DF18EA4B840044C6A0 /* VenueObject.m */; };
 		EB439188157818DE00DE8E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB439187157818DE00DE8E91 /* UIKit.framework */; };
@@ -18003,6 +18004,8 @@
 		81ED8A5318EDC46300F43A18 /* wedding_rings-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wedding_rings-50.png"; sourceTree = "<group>"; };
 		81ED8A5418EDC46300F43A18 /* wedding_rings-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wedding_rings-512.png"; sourceTree = "<group>"; };
 		81ED8A5518EDC46300F43A18 /* wedding_rings-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wedding_rings-75.png"; sourceTree = "<group>"; };
+		9A9525771941648A00A8D417 /* RegisterViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewControllerTableViewController.h; sourceTree = "<group>"; };
+		9A9525781941648A00A8D417 /* RegisterViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewControllerTableViewController.m; sourceTree = "<group>"; };
 		9ADC84DB18EA36C10044C6A0 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
 		9ADC84DC18EA36C10044C6A0 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
 		9ADC84DE18EA4B840044C6A0 /* VenueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueObject.h; sourceTree = "<group>"; };
@@ -18106,6 +18109,8 @@
 				818FCBF718AB1B1C006DF0AA /* LoginViewController.m */,
 				818FCBF818AB1B1C006DF0AA /* UserDetailsViewController.h */,
 				818FCBF918AB1B1C006DF0AA /* UserDetailsViewController.m */,
+				9A9525771941648A00A8D417 /* RegisterViewControllerTableViewController.h */,
+				9A9525781941648A00A8D417 /* RegisterViewControllerTableViewController.m */,
 			);
 			name = LoginViewControllers;
 			sourceTree = "<group>";
@@ -45552,6 +45557,7 @@
 				818FCBFB18AB1B1C006DF0AA /* UserDetailsViewController.m in Sources */,
 				817D2E8F1804CDC000621B44 /* main.m in Sources */,
 				81CFF60718BAD5C100ED6218 /* FSOAuthNoAppStore.m in Sources */,
+				9A9525791941648A00A8D417 /* RegisterViewControllerTableViewController.m in Sources */,
 				81A1588018FC6ED500E9FA7D /* MainViewController.m in Sources */,
 				81CFF60618BAD5C100ED6218 /* FSKeychain.m in Sources */,
 				81D319541905701700950F91 /* DoubleTapCheckIn.m in Sources */,
